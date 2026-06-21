@@ -1,0 +1,4960 @@
+[
+  {
+    "id": "abstract-ring-bootanimation",
+    "folderName": "Abstract Ring bootanimation",
+    "name": "Abstract Ring",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3681181,
+    "sizeFormatted": "3.51 MB",
+    "zipName": "Abstract Ring bootanimation.zip",
+    "zipUrl": "/source-zips/Abstract%20Ring%20bootanimation.zip",
+    "gifUrl": "/previews/Abstract%20Ring%20bootanimation.gif",
+    "coverUrl": "/extracted/Abstract%20Ring%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "abstract-shape-bootanimation",
+    "folderName": "Abstract Shape bootanimation",
+    "name": "Abstract Shape",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 5901509,
+    "sizeFormatted": "5.63 MB",
+    "zipName": "Abstract Shape bootanimation.zip",
+    "zipUrl": "/source-zips/Abstract%20Shape%20bootanimation.zip",
+    "gifUrl": "/previews/Abstract%20Shape%20bootanimation.gif",
+    "coverUrl": "/extracted/Abstract%20Shape%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "abstract-sphere-bootanimation",
+    "folderName": "Abstract Sphere bootanimation",
+    "name": "Abstract Sphere",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2227115,
+    "sizeFormatted": "2.12 MB",
+    "zipName": "Abstract Sphere bootanimation.zip",
+    "zipUrl": "/source-zips/Abstract%20Sphere%20bootanimation.zip",
+    "gifUrl": "/previews/Abstract%20Sphere%20bootanimation.gif",
+    "coverUrl": "/extracted/Abstract%20Sphere%20bootanimation/part0/frame_00_delay-0.05s.png"
+  },
+  {
+    "id": "admiral-2-bootanimation",
+    "folderName": "Admiral 2 bootanimation",
+    "name": "Admiral 2",
+    "width": 400,
+    "height": 400,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 837101,
+    "sizeFormatted": "817.48 KB",
+    "zipName": "Admiral 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Admiral%202%20bootanimation.zip",
+    "gifUrl": "/previews/Admiral%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Admiral%202%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "admiral-3-bootanimation",
+    "folderName": "Admiral 3 bootanimation",
+    "name": "Admiral 3",
+    "width": 780,
+    "height": 780,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1018628,
+    "sizeFormatted": "994.75 KB",
+    "zipName": "Admiral 3 bootanimation.zip",
+    "zipUrl": "/source-zips/Admiral%203%20bootanimation.zip",
+    "gifUrl": "/previews/Admiral%203%20bootanimation.gif",
+    "coverUrl": "/extracted/Admiral%203%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "admiral-bootanimation",
+    "folderName": "Admiral bootanimation",
+    "name": "Admiral",
+    "width": 400,
+    "height": 400,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1209537,
+    "sizeFormatted": "1.15 MB",
+    "zipName": "Admiral bootanimation.zip",
+    "zipUrl": "/source-zips/Admiral%20bootanimation.zip",
+    "gifUrl": "/previews/Admiral%20bootanimation.gif",
+    "coverUrl": "/extracted/Admiral%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "alienware-bootanimation",
+    "folderName": "Alienware bootanimation",
+    "name": "Alienware",
+    "width": 720,
+    "height": 720,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 1,
+        "pause": 0,
+        "folder": "part0"
+      },
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part1"
+      }
+    ],
+    "sizeBytes": 5741765,
+    "sizeFormatted": "5.48 MB",
+    "zipName": "Alienware bootanimation.zip",
+    "zipUrl": "/source-zips/Alienware%20bootanimation.zip",
+    "gifUrl": "/previews/Alienware%20bootanimation.gif",
+    "coverUrl": "/extracted/Alienware%20bootanimation/part0/000.png"
+  },
+  {
+    "id": "android-bootanimation",
+    "folderName": "Android bootanimation",
+    "name": "Android",
+    "width": 400,
+    "height": 400,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1062963,
+    "sizeFormatted": "1.01 MB",
+    "zipName": "Android bootanimation.zip",
+    "zipUrl": "/source-zips/Android%20bootanimation.zip",
+    "gifUrl": "/previews/Android%20bootanimation.gif",
+    "coverUrl": "/extracted/Android%20bootanimation/part0/frame_00_delay-0.07s.png"
+  },
+  {
+    "id": "angular-2-bootanimation",
+    "folderName": "Angular 2 bootanimation",
+    "name": "Angular 2",
+    "width": 400,
+    "height": 400,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1081054,
+    "sizeFormatted": "1.03 MB",
+    "zipName": "Angular 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Angular%202%20bootanimation.zip",
+    "gifUrl": "/previews/Angular%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Angular%202%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "angular-bootanimation",
+    "folderName": "Angular bootanimation",
+    "name": "Angular",
+    "width": 400,
+    "height": 400,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1114084,
+    "sizeFormatted": "1.06 MB",
+    "zipName": "Angular bootanimation.zip",
+    "zipUrl": "/source-zips/Angular%20bootanimation.zip",
+    "gifUrl": "/previews/Angular%20bootanimation.gif",
+    "coverUrl": "/extracted/Angular%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "apex-bootanimation",
+    "folderName": "Apex bootanimation",
+    "name": "Apex",
+    "width": 750,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 752964,
+    "sizeFormatted": "735.32 KB",
+    "zipName": "Apex bootanimation.zip",
+    "zipUrl": "/source-zips/Apex%20bootanimation.zip",
+    "gifUrl": "/previews/Apex%20bootanimation.gif",
+    "coverUrl": "/extracted/Apex%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "apple-bootanimation",
+    "folderName": "Apple bootanimation",
+    "name": "Apple",
+    "width": 900,
+    "height": 506,
+    "fps": 20,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1772558,
+    "sizeFormatted": "1.69 MB",
+    "zipName": "Apple bootanimation.zip",
+    "zipUrl": "/source-zips/Apple%20bootanimation.zip",
+    "gifUrl": "/previews/Apple%20bootanimation.gif",
+    "coverUrl": "/extracted/Apple%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "atom-2-bootanimation",
+    "folderName": "Atom 2 bootanimation",
+    "name": "Atom 2",
+    "width": 800,
+    "height": 800,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3929725,
+    "sizeFormatted": "3.75 MB",
+    "zipName": "Atom 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Atom%202%20bootanimation.zip",
+    "gifUrl": "/previews/Atom%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Atom%202%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "atom-bootanimation",
+    "folderName": "Atom bootanimation",
+    "name": "Atom",
+    "width": 800,
+    "height": 800,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4240173,
+    "sizeFormatted": "4.04 MB",
+    "zipName": "Atom bootanimation.zip",
+    "zipUrl": "/source-zips/Atom%20bootanimation.zip",
+    "gifUrl": "/previews/Atom%20bootanimation.gif",
+    "coverUrl": "/extracted/Atom%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "bb-9e-bootanimation",
+    "folderName": "BB 9E bootanimation",
+    "name": "BB 9E",
+    "width": 900,
+    "height": 675,
+    "fps": 32,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4089341,
+    "sizeFormatted": "3.9 MB",
+    "zipName": "BB 9E bootanimation.zip",
+    "zipUrl": "/source-zips/BB%209E%20bootanimation.zip",
+    "gifUrl": "/previews/BB%209E%20bootanimation.gif",
+    "coverUrl": "/extracted/BB%209E%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "baseball-bootanimation",
+    "folderName": "Baseball bootanimation",
+    "name": "Baseball",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 463817,
+    "sizeFormatted": "452.95 KB",
+    "zipName": "Baseball bootanimation.zip",
+    "zipUrl": "/source-zips/Baseball%20bootanimation.zip",
+    "gifUrl": "/previews/Baseball%20bootanimation.gif",
+    "coverUrl": "/extracted/Baseball%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "basic-marshmallow-bootanimation",
+    "folderName": "Basic Marshmallow bootanimation",
+    "name": "Basic Marshmallow",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3292883,
+    "sizeFormatted": "3.14 MB",
+    "zipName": "Basic Marshmallow bootanimation.zip",
+    "zipUrl": "/source-zips/Basic%20Marshmallow%20bootanimation.zip",
+    "gifUrl": "/previews/Basic%20Marshmallow%20bootanimation.gif",
+    "coverUrl": "/extracted/Basic%20Marshmallow%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "bat-bootanimation",
+    "folderName": "Bat bootanimation",
+    "name": "Bat",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2067994,
+    "sizeFormatted": "1.97 MB",
+    "zipName": "Bat bootanimation.zip",
+    "zipUrl": "/source-zips/Bat%20bootanimation.zip",
+    "gifUrl": "/previews/Bat%20bootanimation.gif",
+    "coverUrl": "/extracted/Bat%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "bend-bootanimation",
+    "folderName": "Bend bootanimation",
+    "name": "Bend",
+    "width": 700,
+    "height": 700,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1883036,
+    "sizeFormatted": "1.8 MB",
+    "zipName": "Bend bootanimation.zip",
+    "zipUrl": "/source-zips/Bend%20bootanimation.zip",
+    "gifUrl": "/previews/Bend%20bootanimation.gif",
+    "coverUrl": "/extracted/Bend%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "biker-bootanimation",
+    "folderName": "Biker bootanimation",
+    "name": "Biker",
+    "width": 900,
+    "height": 675,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 5136929,
+    "sizeFormatted": "4.9 MB",
+    "zipName": "Biker bootanimation.zip",
+    "zipUrl": "/source-zips/Biker%20bootanimation.zip",
+    "gifUrl": "/previews/Biker%20bootanimation.gif",
+    "coverUrl": "/extracted/Biker%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "black-hud-bootanimation",
+    "folderName": "Black Hud bootanimation",
+    "name": "Black Hud",
+    "width": 1200,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 951217,
+    "sizeFormatted": "928.92 KB",
+    "zipName": "Black Hud bootanimation.zip",
+    "zipUrl": "/source-zips/Black%20Hud%20bootanimation.zip",
+    "gifUrl": "/previews/Black%20Hud%20bootanimation.gif",
+    "coverUrl": "/extracted/Black%20Hud%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "black-planet-bootanimation",
+    "folderName": "Black Planet bootanimation",
+    "name": "Black Planet",
+    "width": 600,
+    "height": 450,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 7781908,
+    "sizeFormatted": "7.42 MB",
+    "zipName": "Black Planet bootanimation.zip",
+    "zipUrl": "/source-zips/Black%20Planet%20bootanimation.zip",
+    "gifUrl": "/previews/Black%20Planet%20bootanimation.gif",
+    "coverUrl": "/extracted/Black%20Planet%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "blink-bootanimation",
+    "folderName": "Blink bootanimation",
+    "name": "Blink",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1651580,
+    "sizeFormatted": "1.58 MB",
+    "zipName": "Blink bootanimation.zip",
+    "zipUrl": "/source-zips/Blink%20bootanimation.zip",
+    "gifUrl": "/previews/Blink%20bootanimation.gif",
+    "coverUrl": "/extracted/Blink%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "blockchain-loader-bootanimation",
+    "folderName": "Blockchain Loader bootanimation",
+    "name": "Blockchain Loader",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 604517,
+    "sizeFormatted": "590.35 KB",
+    "zipName": "Blockchain Loader bootanimation.zip",
+    "zipUrl": "/source-zips/Blockchain%20Loader%20bootanimation.zip",
+    "gifUrl": "/previews/Blockchain%20Loader%20bootanimation.gif",
+    "coverUrl": "/extracted/Blockchain%20Loader%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "blocks-bootanimation",
+    "folderName": "Blocks bootanimation",
+    "name": "Blocks",
+    "width": 740,
+    "height": 740,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1711546,
+    "sizeFormatted": "1.63 MB",
+    "zipName": "Blocks bootanimation.zip",
+    "zipUrl": "/source-zips/Blocks%20bootanimation.zip",
+    "gifUrl": "/previews/Blocks%20bootanimation.gif",
+    "coverUrl": "/extracted/Blocks%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "blue-dna-bootanimation",
+    "folderName": "Blue DNA bootanimation",
+    "name": "Blue DNA",
+    "width": 1000,
+    "height": 750,
+    "fps": 40,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 413867,
+    "sizeFormatted": "404.17 KB",
+    "zipName": "Blue DNA bootanimation.zip",
+    "zipUrl": "/source-zips/Blue%20DNA%20bootanimation.zip",
+    "gifUrl": "/previews/Blue%20DNA%20bootanimation.gif",
+    "coverUrl": "/extracted/Blue%20DNA%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "blue-globe-bootanimation",
+    "folderName": "Blue Globe bootanimation",
+    "name": "Blue Globe",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3813404,
+    "sizeFormatted": "3.64 MB",
+    "zipName": "Blue Globe bootanimation.zip",
+    "zipUrl": "/source-zips/Blue%20Globe%20bootanimation.zip",
+    "gifUrl": "/previews/Blue%20Globe%20bootanimation.gif",
+    "coverUrl": "/extracted/Blue%20Globe%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "box-explosion-bootanimation",
+    "folderName": "Box Explosion bootanimation",
+    "name": "Box Explosion",
+    "width": 840,
+    "height": 840,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 297575,
+    "sizeFormatted": "290.6 KB",
+    "zipName": "Box Explosion bootanimation.zip",
+    "zipUrl": "/source-zips/Box%20Explosion%20bootanimation.zip",
+    "gifUrl": "/previews/Box%20Explosion%20bootanimation.gif",
+    "coverUrl": "/extracted/Box%20Explosion%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "box-loading-bootanimation",
+    "folderName": "Box Loading bootanimation",
+    "name": "Box Loading",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 460863,
+    "sizeFormatted": "450.06 KB",
+    "zipName": "Box Loading bootanimation.zip",
+    "zipUrl": "/source-zips/Box%20Loading%20bootanimation.zip",
+    "gifUrl": "/previews/Box%20Loading%20bootanimation.gif",
+    "coverUrl": "/extracted/Box%20Loading%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "bubble-bootanimation",
+    "folderName": "Bubble bootanimation",
+    "name": "Bubble",
+    "width": 1100,
+    "height": 619,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 900112,
+    "sizeFormatted": "879.02 KB",
+    "zipName": "Bubble bootanimation.zip",
+    "zipUrl": "/source-zips/Bubble%20bootanimation.zip",
+    "gifUrl": "/previews/Bubble%20bootanimation.gif",
+    "coverUrl": "/extracted/Bubble%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "bubbles-bootanimation",
+    "folderName": "Bubbles bootanimation",
+    "name": "Bubbles",
+    "width": 1400,
+    "height": 875,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 911302,
+    "sizeFormatted": "889.94 KB",
+    "zipName": "Bubbles bootanimation.zip",
+    "zipUrl": "/source-zips/Bubbles%20bootanimation.zip",
+    "gifUrl": "/previews/Bubbles%20bootanimation.gif",
+    "coverUrl": "/extracted/Bubbles%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "bug-loader-bootanimation",
+    "folderName": "Bug Loader bootanimation",
+    "name": "Bug Loader",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2918439,
+    "sizeFormatted": "2.78 MB",
+    "zipName": "Bug Loader bootanimation.zip",
+    "zipUrl": "/source-zips/Bug%20Loader%20bootanimation.zip",
+    "gifUrl": "/previews/Bug%20Loader%20bootanimation.gif",
+    "coverUrl": "/extracted/Bug%20Loader%20bootanimation/part0/frame_00_delay-0.02s.png"
+  },
+  {
+    "id": "cardan-2-bootanimation",
+    "folderName": "Cardan 2 bootanimation",
+    "name": "Cardan 2",
+    "width": 500,
+    "height": 375,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6688343,
+    "sizeFormatted": "6.38 MB",
+    "zipName": "Cardan 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Cardan%202%20bootanimation.zip",
+    "gifUrl": "/previews/Cardan%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Cardan%202%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "cardan-bootanimation",
+    "folderName": "Cardan bootanimation",
+    "name": "Cardan",
+    "width": 500,
+    "height": 375,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6945090,
+    "sizeFormatted": "6.62 MB",
+    "zipName": "Cardan bootanimation.zip",
+    "zipUrl": "/source-zips/Cardan%20bootanimation.zip",
+    "gifUrl": "/previews/Cardan%20bootanimation.gif",
+    "coverUrl": "/extracted/Cardan%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "carrum-bootanimation",
+    "folderName": "Carrum bootanimation",
+    "name": "Carrum",
+    "width": 1200,
+    "height": 900,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1364709,
+    "sizeFormatted": "1.3 MB",
+    "zipName": "Carrum bootanimation.zip",
+    "zipUrl": "/source-zips/Carrum%20bootanimation.zip",
+    "gifUrl": "/previews/Carrum%20bootanimation.gif",
+    "coverUrl": "/extracted/Carrum%20bootanimation/part0/001.png"
+  },
+  {
+    "id": "chrome-bootanimation",
+    "folderName": "Chrome bootanimation",
+    "name": "Chrome",
+    "width": 256,
+    "height": 256,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1301027,
+    "sizeFormatted": "1.24 MB",
+    "zipName": "Chrome bootanimation.zip",
+    "zipUrl": "/source-zips/Chrome%20bootanimation.zip",
+    "gifUrl": "/previews/Chrome%20bootanimation.gif",
+    "coverUrl": "/extracted/Chrome%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "circle-2-bootanimation",
+    "folderName": "Circle 2 bootanimation",
+    "name": "Circle 2",
+    "width": 720,
+    "height": 507,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 1,
+        "pause": 0,
+        "folder": "part0"
+      },
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part1"
+      }
+    ],
+    "sizeBytes": 13431821,
+    "sizeFormatted": "12.81 MB",
+    "zipName": "Circle 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Circle%202%20bootanimation.zip",
+    "gifUrl": "/previews/Circle%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Circle%202%20bootanimation/part0/000.png"
+  },
+  {
+    "id": "circle-3-bootanimation",
+    "folderName": "Circle 3 bootanimation",
+    "name": "Circle 3",
+    "width": 600,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1814014,
+    "sizeFormatted": "1.73 MB",
+    "zipName": "Circle 3 bootanimation.zip",
+    "zipUrl": "/source-zips/Circle%203%20bootanimation.zip",
+    "gifUrl": "/previews/Circle%203%20bootanimation.gif",
+    "coverUrl": "/extracted/Circle%203%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "circle-flow-bootanimation",
+    "folderName": "Circle Flow bootanimation",
+    "name": "Circle Flow",
+    "width": 800,
+    "height": 800,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 922335,
+    "sizeFormatted": "900.72 KB",
+    "zipName": "Circle Flow bootanimation.zip",
+    "zipUrl": "/source-zips/Circle%20Flow%20bootanimation.zip",
+    "gifUrl": "/previews/Circle%20Flow%20bootanimation.gif",
+    "coverUrl": "/extracted/Circle%20Flow%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "circle-hud-bootanimation",
+    "folderName": "Circle Hud bootanimation",
+    "name": "Circle Hud",
+    "width": 1200,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 782421,
+    "sizeFormatted": "764.08 KB",
+    "zipName": "Circle Hud bootanimation.zip",
+    "zipUrl": "/source-zips/Circle%20Hud%20bootanimation.zip",
+    "gifUrl": "/previews/Circle%20Hud%20bootanimation.gif",
+    "coverUrl": "/extracted/Circle%20Hud%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "circle-bootanimation",
+    "folderName": "Circle bootanimation",
+    "name": "Circle",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 30,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2125306,
+    "sizeFormatted": "2.03 MB",
+    "zipName": "Circle bootanimation.zip",
+    "zipUrl": "/source-zips/Circle%20bootanimation.zip",
+    "gifUrl": "/previews/Circle%20bootanimation.gif",
+    "coverUrl": "/extracted/Circle%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "circuit-bootanimation",
+    "folderName": "Circuit bootanimation",
+    "name": "Circuit",
+    "width": 1000,
+    "height": 1000,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 90,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 12189674,
+    "sizeFormatted": "11.62 MB",
+    "zipName": "Circuit bootanimation.zip",
+    "zipUrl": "/source-zips/Circuit%20bootanimation.zip",
+    "gifUrl": "/previews/Circuit%20bootanimation.gif",
+    "coverUrl": "/extracted/Circuit%20bootanimation/part0/000.png"
+  },
+  {
+    "id": "colored-squares-bootanimation",
+    "folderName": "Colored Squares bootanimation",
+    "name": "Colored Squares",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2829318,
+    "sizeFormatted": "2.7 MB",
+    "zipName": "Colored Squares bootanimation.zip",
+    "zipUrl": "/source-zips/Colored%20Squares%20bootanimation.zip",
+    "gifUrl": "/previews/Colored%20Squares%20bootanimation.gif",
+    "coverUrl": "/extracted/Colored%20Squares%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "colorful-2-bootanimation",
+    "folderName": "Colorful 2 bootanimation",
+    "name": "Colorful 2",
+    "width": 500,
+    "height": 500,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1525983,
+    "sizeFormatted": "1.46 MB",
+    "zipName": "Colorful 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Colorful%202%20bootanimation.zip",
+    "gifUrl": "/previews/Colorful%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Colorful%202%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "colorful-3-bootanimation",
+    "folderName": "Colorful 3 bootanimation",
+    "name": "Colorful 3",
+    "width": 500,
+    "height": 500,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4743911,
+    "sizeFormatted": "4.52 MB",
+    "zipName": "Colorful 3 bootanimation.zip",
+    "zipUrl": "/source-zips/Colorful%203%20bootanimation.zip",
+    "gifUrl": "/previews/Colorful%203%20bootanimation.gif",
+    "coverUrl": "/extracted/Colorful%203%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "colorful-helix-bootanimation",
+    "folderName": "Colorful Helix bootanimation",
+    "name": "Colorful Helix",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1574229,
+    "sizeFormatted": "1.5 MB",
+    "zipName": "Colorful Helix bootanimation.zip",
+    "zipUrl": "/source-zips/Colorful%20Helix%20bootanimation.zip",
+    "gifUrl": "/previews/Colorful%20Helix%20bootanimation.gif",
+    "coverUrl": "/extracted/Colorful%20Helix%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "colorful-hive-bootanimation",
+    "folderName": "Colorful Hive bootanimation",
+    "name": "Colorful Hive",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2721389,
+    "sizeFormatted": "2.6 MB",
+    "zipName": "Colorful Hive bootanimation.zip",
+    "zipUrl": "/source-zips/Colorful%20Hive%20bootanimation.zip",
+    "gifUrl": "/previews/Colorful%20Hive%20bootanimation.gif",
+    "coverUrl": "/extracted/Colorful%20Hive%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "colorful-load-bootanimation",
+    "folderName": "Colorful Load bootanimation",
+    "name": "Colorful Load",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2243686,
+    "sizeFormatted": "2.14 MB",
+    "zipName": "Colorful Load bootanimation.zip",
+    "zipUrl": "/source-zips/Colorful%20Load%20bootanimation.zip",
+    "gifUrl": "/previews/Colorful%20Load%20bootanimation.gif",
+    "coverUrl": "/extracted/Colorful%20Load%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "colorful-loop-bootanimation",
+    "folderName": "Colorful Loop bootanimation",
+    "name": "Colorful Loop",
+    "width": 1050,
+    "height": 1050,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 638425,
+    "sizeFormatted": "623.46 KB",
+    "zipName": "Colorful Loop bootanimation.zip",
+    "zipUrl": "/source-zips/Colorful%20Loop%20bootanimation.zip",
+    "gifUrl": "/previews/Colorful%20Loop%20bootanimation.gif",
+    "coverUrl": "/extracted/Colorful%20Loop%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "colorful-sliced-bootanimation",
+    "folderName": "Colorful Sliced bootanimation",
+    "name": "Colorful Sliced",
+    "width": 640,
+    "height": 640,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4120152,
+    "sizeFormatted": "3.93 MB",
+    "zipName": "Colorful Sliced bootanimation.zip",
+    "zipUrl": "/source-zips/Colorful%20Sliced%20bootanimation.zip",
+    "gifUrl": "/previews/Colorful%20Sliced%20bootanimation.gif",
+    "coverUrl": "/extracted/Colorful%20Sliced%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "colorful-waves-bootanimation",
+    "folderName": "Colorful Waves bootanimation",
+    "name": "Colorful Waves",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4481262,
+    "sizeFormatted": "4.27 MB",
+    "zipName": "Colorful Waves bootanimation.zip",
+    "zipUrl": "/source-zips/Colorful%20Waves%20bootanimation.zip",
+    "gifUrl": "/previews/Colorful%20Waves%20bootanimation.gif",
+    "coverUrl": "/extracted/Colorful%20Waves%20bootanimation/part0/frame_00_delay-0.02s.png"
+  },
+  {
+    "id": "colorful-bootanimation",
+    "folderName": "Colorful bootanimation",
+    "name": "Colorful",
+    "width": 700,
+    "height": 525,
+    "fps": 50,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 60,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 516745,
+    "sizeFormatted": "504.63 KB",
+    "zipName": "Colorful bootanimation.zip",
+    "zipUrl": "/source-zips/Colorful%20bootanimation.zip",
+    "gifUrl": "/previews/Colorful%20bootanimation.gif",
+    "coverUrl": "/extracted/Colorful%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "colossal-bootanimation",
+    "folderName": "Colossal bootanimation",
+    "name": "Colossal",
+    "width": 800,
+    "height": 600,
+    "fps": 150,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6486574,
+    "sizeFormatted": "6.19 MB",
+    "zipName": "Colossal bootanimation.zip",
+    "zipUrl": "/source-zips/Colossal%20bootanimation.zip",
+    "gifUrl": "/previews/Colossal%20bootanimation.gif",
+    "coverUrl": "/extracted/Colossal%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "comet-bootanimation",
+    "folderName": "Comet bootanimation",
+    "name": "Comet",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 828398,
+    "sizeFormatted": "808.98 KB",
+    "zipName": "Comet bootanimation.zip",
+    "zipUrl": "/source-zips/Comet%20bootanimation.zip",
+    "gifUrl": "/previews/Comet%20bootanimation.gif",
+    "coverUrl": "/extracted/Comet%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "connect-bootanimation",
+    "folderName": "Connect bootanimation",
+    "name": "Connect",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2224808,
+    "sizeFormatted": "2.12 MB",
+    "zipName": "Connect bootanimation.zip",
+    "zipUrl": "/source-zips/Connect%20bootanimation.zip",
+    "gifUrl": "/previews/Connect%20bootanimation.gif",
+    "coverUrl": "/extracted/Connect%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "cortana-bootanimation",
+    "folderName": "Cortana bootanimation",
+    "name": "Cortana",
+    "width": 700,
+    "height": 525,
+    "fps": 40,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4536765,
+    "sizeFormatted": "4.33 MB",
+    "zipName": "Cortana bootanimation.zip",
+    "zipUrl": "/source-zips/Cortana%20bootanimation.zip",
+    "gifUrl": "/previews/Cortana%20bootanimation.gif",
+    "coverUrl": "/extracted/Cortana%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "cross-hud-bootanimation",
+    "folderName": "Cross Hud bootanimation",
+    "name": "Cross Hud",
+    "width": 1200,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 405004,
+    "sizeFormatted": "395.51 KB",
+    "zipName": "Cross Hud bootanimation.zip",
+    "zipUrl": "/source-zips/Cross%20Hud%20bootanimation.zip",
+    "gifUrl": "/previews/Cross%20Hud%20bootanimation.gif",
+    "coverUrl": "/extracted/Cross%20Hud%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "crosses-bootanimation",
+    "folderName": "Crosses bootanimation",
+    "name": "Crosses",
+    "width": 800,
+    "height": 800,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3269210,
+    "sizeFormatted": "3.12 MB",
+    "zipName": "Crosses bootanimation.zip",
+    "zipUrl": "/source-zips/Crosses%20bootanimation.zip",
+    "gifUrl": "/previews/Crosses%20bootanimation.gif",
+    "coverUrl": "/extracted/Crosses%20bootanimation/part0/frame_00_delay-0.06s.png"
+  },
+  {
+    "id": "cubes-bootanimation",
+    "folderName": "Cubes bootanimation",
+    "name": "Cubes",
+    "width": 500,
+    "height": 330,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1025542,
+    "sizeFormatted": "1001.51 KB",
+    "zipName": "Cubes bootanimation.zip",
+    "zipUrl": "/source-zips/Cubes%20bootanimation.zip",
+    "gifUrl": "/previews/Cubes%20bootanimation.gif",
+    "coverUrl": "/extracted/Cubes%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "cuts-2-bootanimation",
+    "folderName": "Cuts 2 bootanimation",
+    "name": "Cuts 2",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 184915,
+    "sizeFormatted": "180.58 KB",
+    "zipName": "Cuts 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Cuts%202%20bootanimation.zip",
+    "gifUrl": "/previews/Cuts%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Cuts%202%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "cuts-bootanimation",
+    "folderName": "Cuts bootanimation",
+    "name": "Cuts",
+    "width": 600,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 146840,
+    "sizeFormatted": "143.4 KB",
+    "zipName": "Cuts bootanimation.zip",
+    "zipUrl": "/source-zips/Cuts%20bootanimation.zip",
+    "gifUrl": "/previews/Cuts%20bootanimation.gif",
+    "coverUrl": "/extracted/Cuts%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "cyan-bootanimation",
+    "folderName": "Cyan bootanimation",
+    "name": "Cyan",
+    "width": 680,
+    "height": 383,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 284865,
+    "sizeFormatted": "278.19 KB",
+    "zipName": "Cyan bootanimation.zip",
+    "zipUrl": "/source-zips/Cyan%20bootanimation.zip",
+    "gifUrl": "/previews/Cyan%20bootanimation.gif",
+    "coverUrl": "/extracted/Cyan%20bootanimation/part0/frame_00_delay-0.07s.png"
+  },
+  {
+    "id": "cyanide-bootanimation",
+    "folderName": "Cyanide bootanimation",
+    "name": "Cyanide",
+    "width": 720,
+    "height": 720,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4669346,
+    "sizeFormatted": "4.45 MB",
+    "zipName": "Cyanide bootanimation.zip",
+    "zipUrl": "/source-zips/Cyanide%20bootanimation.zip",
+    "gifUrl": "/previews/Cyanide%20bootanimation.gif",
+    "coverUrl": "/extracted/Cyanide%20bootanimation/part0/000.png"
+  },
+  {
+    "id": "cyber-cube-bootanimation",
+    "folderName": "Cyber Cube bootanimation",
+    "name": "Cyber Cube",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 11219209,
+    "sizeFormatted": "10.7 MB",
+    "zipName": "Cyber Cube bootanimation.zip",
+    "zipUrl": "/source-zips/Cyber%20Cube%20bootanimation.zip",
+    "gifUrl": "/previews/Cyber%20Cube%20bootanimation.gif",
+    "coverUrl": "/extracted/Cyber%20Cube%20bootanimation/part0/frame_000_delay-0.05s.png"
+  },
+  {
+    "id": "cybernetic-bootanimation",
+    "folderName": "Cybernetic bootanimation",
+    "name": "Cybernetic",
+    "width": 1050,
+    "height": 197,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2329375,
+    "sizeFormatted": "2.22 MB",
+    "zipName": "Cybernetic bootanimation.zip",
+    "zipUrl": "/source-zips/Cybernetic%20bootanimation.zip",
+    "gifUrl": "/previews/Cybernetic%20bootanimation.gif",
+    "coverUrl": "/extracted/Cybernetic%20bootanimation/part0/frame_001_delay-0.03s.png"
+  },
+  {
+    "id": "dna-bootanimation",
+    "folderName": "DNA bootanimation",
+    "name": "DNA",
+    "width": 500,
+    "height": 500,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 90,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 620251,
+    "sizeFormatted": "605.71 KB",
+    "zipName": "DNA bootanimation.zip",
+    "zipUrl": "/source-zips/DNA%20bootanimation.zip",
+    "gifUrl": "/previews/DNA%20bootanimation.gif",
+    "coverUrl": "/extracted/DNA%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "darth-vader-bootanimation",
+    "folderName": "Darth Vader bootanimation",
+    "name": "Darth Vader",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1532168,
+    "sizeFormatted": "1.46 MB",
+    "zipName": "Darth Vader bootanimation.zip",
+    "zipUrl": "/source-zips/Darth%20Vader%20bootanimation.zip",
+    "gifUrl": "/previews/Darth%20Vader%20bootanimation.gif",
+    "coverUrl": "/extracted/Darth%20Vader%20bootanimation/part0/frame_000_delay-0.06s.png"
+  },
+  {
+    "id": "deus-ex-bootanimation",
+    "folderName": "Deus Ex bootanimation",
+    "name": "Deus Ex",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3525099,
+    "sizeFormatted": "3.36 MB",
+    "zipName": "Deus Ex bootanimation.zip",
+    "zipUrl": "/source-zips/Deus%20Ex%20bootanimation.zip",
+    "gifUrl": "/previews/Deus%20Ex%20bootanimation.gif",
+    "coverUrl": "/extracted/Deus%20Ex%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "digital-snake-bootanimation",
+    "folderName": "Digital Snake bootanimation",
+    "name": "Digital Snake",
+    "width": 800,
+    "height": 540,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 13308118,
+    "sizeFormatted": "12.69 MB",
+    "zipName": "Digital Snake bootanimation.zip",
+    "zipUrl": "/source-zips/Digital%20Snake%20bootanimation.zip",
+    "gifUrl": "/previews/Digital%20Snake%20bootanimation.gif",
+    "coverUrl": "/extracted/Digital%20Snake%20bootanimation/part0/frame_000_delay-0.1s.png"
+  },
+  {
+    "id": "dots-bootanimation",
+    "folderName": "Dots bootanimation",
+    "name": "Dots",
+    "width": 500,
+    "height": 500,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3167574,
+    "sizeFormatted": "3.02 MB",
+    "zipName": "Dots bootanimation.zip",
+    "zipUrl": "/source-zips/Dots%20bootanimation.zip",
+    "gifUrl": "/previews/Dots%20bootanimation.gif",
+    "coverUrl": "/extracted/Dots%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "double-cardan-bootanimation",
+    "folderName": "Double Cardan bootanimation",
+    "name": "Double Cardan",
+    "width": 500,
+    "height": 375,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2465235,
+    "sizeFormatted": "2.35 MB",
+    "zipName": "Double Cardan bootanimation.zip",
+    "zipUrl": "/source-zips/Double%20Cardan%20bootanimation.zip",
+    "gifUrl": "/previews/Double%20Cardan%20bootanimation.gif",
+    "coverUrl": "/extracted/Double%20Cardan%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "earth-bootanimation",
+    "folderName": "Earth bootanimation",
+    "name": "Earth",
+    "width": 720,
+    "height": 405,
+    "fps": 15,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 13227720,
+    "sizeFormatted": "12.61 MB",
+    "zipName": "Earth bootanimation.zip",
+    "zipUrl": "/source-zips/Earth%20bootanimation.zip",
+    "gifUrl": "/previews/Earth%20bootanimation.gif",
+    "coverUrl": "/extracted/Earth%20bootanimation/part0/001.png"
+  },
+  {
+    "id": "evil-bootanimation",
+    "folderName": "Evil bootanimation",
+    "name": "Evil",
+    "width": 550,
+    "height": 550,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4764752,
+    "sizeFormatted": "4.54 MB",
+    "zipName": "Evil bootanimation.zip",
+    "zipUrl": "/source-zips/Evil%20bootanimation.zip",
+    "gifUrl": "/previews/Evil%20bootanimation.gif",
+    "coverUrl": "/extracted/Evil%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "flames-bootanimation",
+    "folderName": "Flames bootanimation",
+    "name": "Flames",
+    "width": 1000,
+    "height": 1000,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 90,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 5205195,
+    "sizeFormatted": "4.96 MB",
+    "zipName": "Flames bootanimation.zip",
+    "zipUrl": "/source-zips/Flames%20bootanimation.zip",
+    "gifUrl": "/previews/Flames%20bootanimation.gif",
+    "coverUrl": "/extracted/Flames%20bootanimation/part0/000.png"
+  },
+  {
+    "id": "flowbow-bootanimation",
+    "folderName": "Flowbow bootanimation",
+    "name": "Flowbow",
+    "width": 800,
+    "height": 800,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 590452,
+    "sizeFormatted": "576.61 KB",
+    "zipName": "Flowbow bootanimation.zip",
+    "zipUrl": "/source-zips/Flowbow%20bootanimation.zip",
+    "gifUrl": "/previews/Flowbow%20bootanimation.gif",
+    "coverUrl": "/extracted/Flowbow%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "flower-bootanimation",
+    "folderName": "Flower bootanimation",
+    "name": "Flower",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 8504361,
+    "sizeFormatted": "8.11 MB",
+    "zipName": "Flower bootanimation.zip",
+    "zipUrl": "/source-zips/Flower%20bootanimation.zip",
+    "gifUrl": "/previews/Flower%20bootanimation.gif",
+    "coverUrl": "/extracted/Flower%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "fox-bootanimation",
+    "folderName": "Fox bootanimation",
+    "name": "Fox",
+    "width": 1200,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 1000,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 70502,
+    "sizeFormatted": "68.85 KB",
+    "zipName": "Fox bootanimation.zip",
+    "zipUrl": "/source-zips/Fox%20bootanimation.zip",
+    "gifUrl": "/previews/Fox%20bootanimation.gif",
+    "coverUrl": "/extracted/Fox%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "gavitron-bootanimation",
+    "folderName": "Gavitron bootanimation",
+    "name": "Gavitron",
+    "width": 480,
+    "height": 320,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 875002,
+    "sizeFormatted": "854.49 KB",
+    "zipName": "Gavitron bootanimation.zip",
+    "zipUrl": "/source-zips/Gavitron%20bootanimation.zip",
+    "gifUrl": "/previews/Gavitron%20bootanimation.gif",
+    "coverUrl": "/extracted/Gavitron%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "geometric-2-bootanimation",
+    "folderName": "Geometric 2 bootanimation",
+    "name": "Geometric 2",
+    "width": 384,
+    "height": 384,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 5958609,
+    "sizeFormatted": "5.68 MB",
+    "zipName": "Geometric 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Geometric%202%20bootanimation.zip",
+    "gifUrl": "/previews/Geometric%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Geometric%202%20bootanimation/part0/frame_00_delay-0.05s.png"
+  },
+  {
+    "id": "geometric-bootanimation",
+    "folderName": "Geometric bootanimation",
+    "name": "Geometric",
+    "width": 500,
+    "height": 500,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2589068,
+    "sizeFormatted": "2.47 MB",
+    "zipName": "Geometric bootanimation.zip",
+    "zipUrl": "/source-zips/Geometric%20bootanimation.zip",
+    "gifUrl": "/previews/Geometric%20bootanimation.gif",
+    "coverUrl": "/extracted/Geometric%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "glitch-circle-bootanimation",
+    "folderName": "Glitch Circle bootanimation",
+    "name": "Glitch Circle",
+    "width": 800,
+    "height": 500,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2901159,
+    "sizeFormatted": "2.77 MB",
+    "zipName": "Glitch Circle bootanimation.zip",
+    "zipUrl": "/source-zips/Glitch%20Circle%20bootanimation.zip",
+    "gifUrl": "/previews/Glitch%20Circle%20bootanimation.gif",
+    "coverUrl": "/extracted/Glitch%20Circle%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "glitch-square-bootanimation",
+    "folderName": "Glitch Square bootanimation",
+    "name": "Glitch Square",
+    "width": 800,
+    "height": 566,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1682531,
+    "sizeFormatted": "1.6 MB",
+    "zipName": "Glitch Square bootanimation.zip",
+    "zipUrl": "/source-zips/Glitch%20Square%20bootanimation.zip",
+    "gifUrl": "/previews/Glitch%20Square%20bootanimation.gif",
+    "coverUrl": "/extracted/Glitch%20Square%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "glitch-triangle-bootanimation",
+    "folderName": "Glitch Triangle bootanimation",
+    "name": "Glitch Triangle",
+    "width": 800,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1090694,
+    "sizeFormatted": "1.04 MB",
+    "zipName": "Glitch Triangle bootanimation.zip",
+    "zipUrl": "/source-zips/Glitch%20Triangle%20bootanimation.zip",
+    "gifUrl": "/previews/Glitch%20Triangle%20bootanimation.gif",
+    "coverUrl": "/extracted/Glitch%20Triangle%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "glitch-bootanimation",
+    "folderName": "Glitch bootanimation",
+    "name": "Glitch",
+    "width": 800,
+    "height": 451,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1345710,
+    "sizeFormatted": "1.28 MB",
+    "zipName": "Glitch bootanimation.zip",
+    "zipUrl": "/source-zips/Glitch%20bootanimation.zip",
+    "gifUrl": "/previews/Glitch%20bootanimation.gif",
+    "coverUrl": "/extracted/Glitch%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "globe-bootanimation",
+    "folderName": "Globe bootanimation",
+    "name": "Globe",
+    "width": 600,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 50,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 8013662,
+    "sizeFormatted": "7.64 MB",
+    "zipName": "Globe bootanimation.zip",
+    "zipUrl": "/source-zips/Globe%20bootanimation.zip",
+    "gifUrl": "/previews/Globe%20bootanimation.gif",
+    "coverUrl": "/extracted/Globe%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "glow-bootanimation",
+    "folderName": "Glow bootanimation",
+    "name": "Glow",
+    "width": 500,
+    "height": 500,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 5983527,
+    "sizeFormatted": "5.71 MB",
+    "zipName": "Glow bootanimation.zip",
+    "zipUrl": "/source-zips/Glow%20bootanimation.zip",
+    "gifUrl": "/previews/Glow%20bootanimation.gif",
+    "coverUrl": "/extracted/Glow%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "google-bubbles-bootanimation",
+    "folderName": "Google Bubbles bootanimation",
+    "name": "Google Bubbles",
+    "width": 675,
+    "height": 379,
+    "fps": 60,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 332268,
+    "sizeFormatted": "324.48 KB",
+    "zipName": "Google Bubbles bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Bubbles%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Bubbles%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Bubbles%20bootanimation/part0/frame_00_delay-0.02s.png"
+  },
+  {
+    "id": "google-gears-bootanimation",
+    "folderName": "Google Gears bootanimation",
+    "name": "Google Gears",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1225104,
+    "sizeFormatted": "1.17 MB",
+    "zipName": "Google Gears bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Gears%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Gears%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Gears%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "google-loading-2-bootanimation",
+    "folderName": "Google Loading 2 bootanimation",
+    "name": "Google Loading 2",
+    "width": 1300,
+    "height": 699,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1149802,
+    "sizeFormatted": "1.1 MB",
+    "zipName": "Google Loading 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Loading%202%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Loading%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Loading%202%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "google-loading-bootanimation",
+    "folderName": "Google Loading bootanimation",
+    "name": "Google Loading",
+    "width": 1101,
+    "height": 592,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2665142,
+    "sizeFormatted": "2.54 MB",
+    "zipName": "Google Loading bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Loading%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Loading%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Loading%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "google-point-bootanimation",
+    "folderName": "Google Point bootanimation",
+    "name": "Google Point",
+    "width": 780,
+    "height": 780,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 281624,
+    "sizeFormatted": "275.02 KB",
+    "zipName": "Google Point bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Point%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Point%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Point%20bootanimation/part0/frame_00_delay-0.07s.png"
+  },
+  {
+    "id": "google-rainbow-bootanimation",
+    "folderName": "Google Rainbow bootanimation",
+    "name": "Google Rainbow",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 128846,
+    "sizeFormatted": "125.83 KB",
+    "zipName": "Google Rainbow bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Rainbow%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Rainbow%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Rainbow%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "google-stellar-bootanimation",
+    "folderName": "Google Stellar bootanimation",
+    "name": "Google Stellar",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 14071206,
+    "sizeFormatted": "13.42 MB",
+    "zipName": "Google Stellar bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Stellar%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Stellar%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Stellar%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "google-style-2-bootanimation",
+    "folderName": "Google Style 2 bootanimation",
+    "name": "Google Style 2",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 959808,
+    "sizeFormatted": "937.31 KB",
+    "zipName": "Google Style 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Style%202%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Style%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Style%202%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "google-style-bootanimation",
+    "folderName": "Google Style bootanimation",
+    "name": "Google Style",
+    "width": 900,
+    "height": 507,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2772445,
+    "sizeFormatted": "2.64 MB",
+    "zipName": "Google Style bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Style%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Style%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Style%20bootanimation/part0/001.png"
+  },
+  {
+    "id": "google-target-bootanimation",
+    "folderName": "Google Target bootanimation",
+    "name": "Google Target",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 673815,
+    "sizeFormatted": "658.02 KB",
+    "zipName": "Google Target bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Target%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Target%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Target%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "google-triangle-bootanimation",
+    "folderName": "Google Triangle bootanimation",
+    "name": "Google Triangle",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 765481,
+    "sizeFormatted": "747.54 KB",
+    "zipName": "Google Triangle bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20Triangle%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20Triangle%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20Triangle%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "google-bootanimation",
+    "folderName": "Google bootanimation",
+    "name": "Google",
+    "width": 280,
+    "height": 280,
+    "fps": 15,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 641329,
+    "sizeFormatted": "626.3 KB",
+    "zipName": "Google bootanimation.zip",
+    "zipUrl": "/source-zips/Google%20bootanimation.zip",
+    "gifUrl": "/previews/Google%20bootanimation.gif",
+    "coverUrl": "/extracted/Google%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "green-loader-bootanimation",
+    "folderName": "Green Loader bootanimation",
+    "name": "Green Loader",
+    "width": 1200,
+    "height": 900,
+    "fps": 40,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 290519,
+    "sizeFormatted": "283.71 KB",
+    "zipName": "Green Loader bootanimation.zip",
+    "zipUrl": "/source-zips/Green%20Loader%20bootanimation.zip",
+    "gifUrl": "/previews/Green%20Loader%20bootanimation.gif",
+    "coverUrl": "/extracted/Green%20Loader%20bootanimation/part0/frame_00_delay-0.02s.png"
+  },
+  {
+    "id": "hammer-bootanimation",
+    "folderName": "Hammer bootanimation",
+    "name": "Hammer",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2401595,
+    "sizeFormatted": "2.29 MB",
+    "zipName": "Hammer bootanimation.zip",
+    "zipUrl": "/source-zips/Hammer%20bootanimation.zip",
+    "gifUrl": "/previews/Hammer%20bootanimation.gif",
+    "coverUrl": "/extracted/Hammer%20bootanimation/part0/frame_00_delay-0.05s.png"
+  },
+  {
+    "id": "helix-bootanimation",
+    "folderName": "Helix bootanimation",
+    "name": "Helix",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3092795,
+    "sizeFormatted": "2.95 MB",
+    "zipName": "Helix bootanimation.zip",
+    "zipUrl": "/source-zips/Helix%20bootanimation.zip",
+    "gifUrl": "/previews/Helix%20bootanimation.gif",
+    "coverUrl": "/extracted/Helix%20bootanimation/part0/frame_000_delay-0.06s.png"
+  },
+  {
+    "id": "hex-sphere-bootanimation",
+    "folderName": "Hex Sphere bootanimation",
+    "name": "Hex Sphere",
+    "width": 1067,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 12672923,
+    "sizeFormatted": "12.09 MB",
+    "zipName": "Hex Sphere bootanimation.zip",
+    "zipUrl": "/source-zips/Hex%20Sphere%20bootanimation.zip",
+    "gifUrl": "/previews/Hex%20Sphere%20bootanimation.gif",
+    "coverUrl": "/extracted/Hex%20Sphere%20bootanimation/part0/frame_0000_delay-0.04s.png"
+  },
+  {
+    "id": "hexa-explosion-bootanimation",
+    "folderName": "Hexa Explosion bootanimation",
+    "name": "Hexa Explosion",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1340984,
+    "sizeFormatted": "1.28 MB",
+    "zipName": "Hexa Explosion bootanimation.zip",
+    "zipUrl": "/source-zips/Hexa%20Explosion%20bootanimation.zip",
+    "gifUrl": "/previews/Hexa%20Explosion%20bootanimation.gif",
+    "coverUrl": "/extracted/Hexa%20Explosion%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "hexa-retro-bootanimation",
+    "folderName": "Hexa Retro bootanimation",
+    "name": "Hexa Retro",
+    "width": 500,
+    "height": 500,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2327530,
+    "sizeFormatted": "2.22 MB",
+    "zipName": "Hexa Retro bootanimation.zip",
+    "zipUrl": "/source-zips/Hexa%20Retro%20bootanimation.zip",
+    "gifUrl": "/previews/Hexa%20Retro%20bootanimation.gif",
+    "coverUrl": "/extracted/Hexa%20Retro%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "hexagon-2-bootanimation",
+    "folderName": "Hexagon 2 bootanimation",
+    "name": "Hexagon 2",
+    "width": 500,
+    "height": 500,
+    "fps": 70,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 970789,
+    "sizeFormatted": "948.04 KB",
+    "zipName": "Hexagon 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Hexagon%202%20bootanimation.zip",
+    "gifUrl": "/previews/Hexagon%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Hexagon%202%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "hexagon-3-bootanimation",
+    "folderName": "Hexagon 3 bootanimation",
+    "name": "Hexagon 3",
+    "width": 800,
+    "height": 600,
+    "fps": 50,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2182648,
+    "sizeFormatted": "2.08 MB",
+    "zipName": "Hexagon 3 bootanimation.zip",
+    "zipUrl": "/source-zips/Hexagon%203%20bootanimation.zip",
+    "gifUrl": "/previews/Hexagon%203%20bootanimation.gif",
+    "coverUrl": "/extracted/Hexagon%203%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "hexagon-4-bootanimation",
+    "folderName": "Hexagon 4 bootanimation",
+    "name": "Hexagon 4",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 459328,
+    "sizeFormatted": "448.56 KB",
+    "zipName": "Hexagon 4 bootanimation.zip",
+    "zipUrl": "/source-zips/Hexagon%204%20bootanimation.zip",
+    "gifUrl": "/previews/Hexagon%204%20bootanimation.gif",
+    "coverUrl": "/extracted/Hexagon%204%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "hexagon-dots-bootanimation",
+    "folderName": "Hexagon Dots bootanimation",
+    "name": "Hexagon Dots",
+    "width": 1200,
+    "height": 900,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 1,
+        "pause": 0,
+        "folder": "part0"
+      },
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part1"
+      }
+    ],
+    "sizeBytes": 2087836,
+    "sizeFormatted": "1.99 MB",
+    "zipName": "Hexagon Dots bootanimation.zip",
+    "zipUrl": "/source-zips/Hexagon%20Dots%20bootanimation.zip",
+    "gifUrl": "/previews/Hexagon%20Dots%20bootanimation.gif",
+    "coverUrl": "/extracted/Hexagon%20Dots%20bootanimation/part0/frame_001_delay-0.03s.png"
+  },
+  {
+    "id": "hexagon-hud-bootanimation",
+    "folderName": "Hexagon Hud bootanimation",
+    "name": "Hexagon Hud",
+    "width": 1200,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 976091,
+    "sizeFormatted": "953.21 KB",
+    "zipName": "Hexagon Hud bootanimation.zip",
+    "zipUrl": "/source-zips/Hexagon%20Hud%20bootanimation.zip",
+    "gifUrl": "/previews/Hexagon%20Hud%20bootanimation.gif",
+    "coverUrl": "/extracted/Hexagon%20Hud%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "hexagon-loader-bootanimation",
+    "folderName": "Hexagon Loader bootanimation",
+    "name": "Hexagon Loader",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2409996,
+    "sizeFormatted": "2.3 MB",
+    "zipName": "Hexagon Loader bootanimation.zip",
+    "zipUrl": "/source-zips/Hexagon%20Loader%20bootanimation.zip",
+    "gifUrl": "/previews/Hexagon%20Loader%20bootanimation.gif",
+    "coverUrl": "/extracted/Hexagon%20Loader%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "hexagon-bootanimation",
+    "folderName": "Hexagon bootanimation",
+    "name": "Hexagon",
+    "width": 2160,
+    "height": 2160,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 558110,
+    "sizeFormatted": "545.03 KB",
+    "zipName": "Hexagon bootanimation.zip",
+    "zipUrl": "/source-zips/Hexagon%20bootanimation.zip",
+    "gifUrl": "/previews/Hexagon%20bootanimation.gif",
+    "coverUrl": "/extracted/Hexagon%20bootanimation/part0/000.png"
+  },
+  {
+    "id": "hive-bootanimation",
+    "folderName": "Hive bootanimation",
+    "name": "Hive",
+    "width": 700,
+    "height": 700,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2272789,
+    "sizeFormatted": "2.17 MB",
+    "zipName": "Hive bootanimation.zip",
+    "zipUrl": "/source-zips/Hive%20bootanimation.zip",
+    "gifUrl": "/previews/Hive%20bootanimation.gif",
+    "coverUrl": "/extracted/Hive%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "hourglass-bootanimation",
+    "folderName": "Hourglass bootanimation",
+    "name": "Hourglass",
+    "width": 800,
+    "height": 533,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 907502,
+    "sizeFormatted": "886.23 KB",
+    "zipName": "Hourglass bootanimation.zip",
+    "zipUrl": "/source-zips/Hourglass%20bootanimation.zip",
+    "gifUrl": "/previews/Hourglass%20bootanimation.gif",
+    "coverUrl": "/extracted/Hourglass%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "hud-2-bootanimation",
+    "folderName": "Hud 2 bootanimation",
+    "name": "Hud 2",
+    "width": 440,
+    "height": 440,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1413286,
+    "sizeFormatted": "1.35 MB",
+    "zipName": "Hud 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Hud%202%20bootanimation.zip",
+    "gifUrl": "/previews/Hud%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Hud%202%20bootanimation/part0/frame_00_delay-0.05s.png"
+  },
+  {
+    "id": "hud-3-bootanimation",
+    "folderName": "Hud 3 bootanimation",
+    "name": "Hud 3",
+    "width": 800,
+    "height": 600,
+    "fps": 20,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3090088,
+    "sizeFormatted": "2.95 MB",
+    "zipName": "Hud 3 bootanimation.zip",
+    "zipUrl": "/source-zips/Hud%203%20bootanimation.zip",
+    "gifUrl": "/previews/Hud%203%20bootanimation.gif",
+    "coverUrl": "/extracted/Hud%203%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "hud-4-bootanimation",
+    "folderName": "Hud 4 bootanimation",
+    "name": "Hud 4",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3360501,
+    "sizeFormatted": "3.2 MB",
+    "zipName": "Hud 4 bootanimation.zip",
+    "zipUrl": "/source-zips/Hud%204%20bootanimation.zip",
+    "gifUrl": "/previews/Hud%204%20bootanimation.gif",
+    "coverUrl": "/extracted/Hud%204%20bootanimation/part0/frame_000_delay-0.05s.png"
+  },
+  {
+    "id": "hud-element-bootanimation",
+    "folderName": "Hud Element bootanimation",
+    "name": "Hud Element",
+    "width": 1200,
+    "height": 900,
+    "fps": 25,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1755146,
+    "sizeFormatted": "1.67 MB",
+    "zipName": "Hud Element bootanimation.zip",
+    "zipUrl": "/source-zips/Hud%20Element%20bootanimation.zip",
+    "gifUrl": "/previews/Hud%20Element%20bootanimation.gif",
+    "coverUrl": "/extracted/Hud%20Element%20bootanimation/part0/frame_000_delay-0.05s.png"
+  },
+  {
+    "id": "hud-hypnotism-bootanimation",
+    "folderName": "Hud Hypnotism bootanimation",
+    "name": "Hud Hypnotism",
+    "width": 960,
+    "height": 540,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 50,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 7766276,
+    "sizeFormatted": "7.41 MB",
+    "zipName": "Hud Hypnotism bootanimation.zip",
+    "zipUrl": "/source-zips/Hud%20Hypnotism%20bootanimation.zip",
+    "gifUrl": "/previews/Hud%20Hypnotism%20bootanimation.gif",
+    "coverUrl": "/extracted/Hud%20Hypnotism%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "ibm-bootanimation",
+    "folderName": "IBM bootanimation",
+    "name": "IBM",
+    "width": 444,
+    "height": 444,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 461985,
+    "sizeFormatted": "451.16 KB",
+    "zipName": "IBM bootanimation.zip",
+    "zipUrl": "/source-zips/IBM%20bootanimation.zip",
+    "gifUrl": "/previews/IBM%20bootanimation.gif",
+    "coverUrl": "/extracted/IBM%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "ioi-bootanimation",
+    "folderName": "IOI bootanimation",
+    "name": "IOI",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 727058,
+    "sizeFormatted": "710.02 KB",
+    "zipName": "IOI bootanimation.zip",
+    "zipUrl": "/source-zips/IOI%20bootanimation.zip",
+    "gifUrl": "/previews/IOI%20bootanimation.gif",
+    "coverUrl": "/extracted/IOI%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "infinite-energy-bootanimation",
+    "folderName": "Infinite Energy bootanimation",
+    "name": "Infinite Energy",
+    "width": 1300,
+    "height": 975,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1266617,
+    "sizeFormatted": "1.21 MB",
+    "zipName": "Infinite Energy bootanimation.zip",
+    "zipUrl": "/source-zips/Infinite%20Energy%20bootanimation.zip",
+    "gifUrl": "/previews/Infinite%20Energy%20bootanimation.gif",
+    "coverUrl": "/extracted/Infinite%20Energy%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "infinite-seal-bootanimation",
+    "folderName": "Infinite Seal bootanimation",
+    "name": "Infinite Seal",
+    "width": 950,
+    "height": 534,
+    "fps": 40,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 20809761,
+    "sizeFormatted": "19.85 MB",
+    "zipName": "Infinite Seal bootanimation.zip",
+    "zipUrl": "/source-zips/Infinite%20Seal%20bootanimation.zip",
+    "gifUrl": "/previews/Infinite%20Seal%20bootanimation.gif",
+    "coverUrl": "/extracted/Infinite%20Seal%20bootanimation/part0/frame_000_delay-0.07s.png"
+  },
+  {
+    "id": "infinite-bootanimation",
+    "folderName": "Infinite bootanimation",
+    "name": "Infinite",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1671886,
+    "sizeFormatted": "1.59 MB",
+    "zipName": "Infinite bootanimation.zip",
+    "zipUrl": "/source-zips/Infinite%20bootanimation.zip",
+    "gifUrl": "/previews/Infinite%20bootanimation.gif",
+    "coverUrl": "/extracted/Infinite%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "infinity-circle-bootanimation",
+    "folderName": "Infinity Circle bootanimation",
+    "name": "Infinity Circle",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4962186,
+    "sizeFormatted": "4.73 MB",
+    "zipName": "Infinity Circle bootanimation.zip",
+    "zipUrl": "/source-zips/Infinity%20Circle%20bootanimation.zip",
+    "gifUrl": "/previews/Infinity%20Circle%20bootanimation.gif",
+    "coverUrl": "/extracted/Infinity%20Circle%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "infinity-loading-bootanimation",
+    "folderName": "Infinity Loading bootanimation",
+    "name": "Infinity Loading",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1007733,
+    "sizeFormatted": "984.11 KB",
+    "zipName": "Infinity Loading bootanimation.zip",
+    "zipUrl": "/source-zips/Infinity%20Loading%20bootanimation.zip",
+    "gifUrl": "/previews/Infinity%20Loading%20bootanimation.gif",
+    "coverUrl": "/extracted/Infinity%20Loading%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "inside-out-bootanimation",
+    "folderName": "Inside Out bootanimation",
+    "name": "Inside Out",
+    "width": 500,
+    "height": 375,
+    "fps": 40,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6782807,
+    "sizeFormatted": "6.47 MB",
+    "zipName": "Inside Out bootanimation.zip",
+    "zipUrl": "/source-zips/Inside%20Out%20bootanimation.zip",
+    "gifUrl": "/previews/Inside%20Out%20bootanimation.gif",
+    "coverUrl": "/extracted/Inside%20Out%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "inside-bootanimation",
+    "folderName": "Inside bootanimation",
+    "name": "Inside",
+    "width": 700,
+    "height": 700,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1335404,
+    "sizeFormatted": "1.27 MB",
+    "zipName": "Inside bootanimation.zip",
+    "zipUrl": "/source-zips/Inside%20bootanimation.zip",
+    "gifUrl": "/previews/Inside%20bootanimation.gif",
+    "coverUrl": "/extracted/Inside%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "intersect-bootanimation",
+    "folderName": "Intersect bootanimation",
+    "name": "Intersect",
+    "width": 380,
+    "height": 285,
+    "fps": 20,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1582456,
+    "sizeFormatted": "1.51 MB",
+    "zipName": "Intersect bootanimation.zip",
+    "zipUrl": "/source-zips/Intersect%20bootanimation.zip",
+    "gifUrl": "/previews/Intersect%20bootanimation.gif",
+    "coverUrl": "/extracted/Intersect%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "iron-man-helmet-bootanimation",
+    "folderName": "Iron Man Helmet bootanimation",
+    "name": "Iron Man Helmet",
+    "width": 725,
+    "height": 480,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2729793,
+    "sizeFormatted": "2.6 MB",
+    "zipName": "Iron Man Helmet bootanimation.zip",
+    "zipUrl": "/source-zips/Iron%20Man%20Helmet%20bootanimation.zip",
+    "gifUrl": "/previews/Iron%20Man%20Helmet%20bootanimation.gif",
+    "coverUrl": "/extracted/Iron%20Man%20Helmet%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "iron-man-hud-bootanimation",
+    "folderName": "Iron Man Hud bootanimation",
+    "name": "Iron Man Hud",
+    "width": 1080,
+    "height": 1080,
+    "fps": 15,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 18482450,
+    "sizeFormatted": "17.63 MB",
+    "zipName": "Iron Man Hud bootanimation.zip",
+    "zipUrl": "/source-zips/Iron%20Man%20Hud%20bootanimation.zip",
+    "gifUrl": "/previews/Iron%20Man%20Hud%20bootanimation.gif",
+    "coverUrl": "/extracted/Iron%20Man%20Hud%20bootanimation/part0/000.png"
+  },
+  {
+    "id": "isometric-bootanimation",
+    "folderName": "Isometric bootanimation",
+    "name": "Isometric",
+    "width": 700,
+    "height": 525,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3850293,
+    "sizeFormatted": "3.67 MB",
+    "zipName": "Isometric bootanimation.zip",
+    "zipUrl": "/source-zips/Isometric%20bootanimation.zip",
+    "gifUrl": "/previews/Isometric%20bootanimation.gif",
+    "coverUrl": "/extracted/Isometric%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "lib-bootanimation",
+    "folderName": "LIB bootanimation",
+    "name": "LIB",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 50,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2041718,
+    "sizeFormatted": "1.95 MB",
+    "zipName": "LIB bootanimation.zip",
+    "zipUrl": "/source-zips/LIB%20bootanimation.zip",
+    "gifUrl": "/previews/LIB%20bootanimation.gif",
+    "coverUrl": "/extracted/LIB%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "labyrinth-bootanimation",
+    "folderName": "Labyrinth bootanimation",
+    "name": "Labyrinth",
+    "width": 700,
+    "height": 700,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6363345,
+    "sizeFormatted": "6.07 MB",
+    "zipName": "Labyrinth bootanimation.zip",
+    "zipUrl": "/source-zips/Labyrinth%20bootanimation.zip",
+    "gifUrl": "/previews/Labyrinth%20bootanimation.gif",
+    "coverUrl": "/extracted/Labyrinth%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "lego-bootanimation",
+    "folderName": "Lego bootanimation",
+    "name": "Lego",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1300684,
+    "sizeFormatted": "1.24 MB",
+    "zipName": "Lego bootanimation.zip",
+    "zipUrl": "/source-zips/Lego%20bootanimation.zip",
+    "gifUrl": "/previews/Lego%20bootanimation.gif",
+    "coverUrl": "/extracted/Lego%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "lights-bootanimation",
+    "folderName": "Lights bootanimation",
+    "name": "Lights",
+    "width": 900,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2559148,
+    "sizeFormatted": "2.44 MB",
+    "zipName": "Lights bootanimation.zip",
+    "zipUrl": "/source-zips/Lights%20bootanimation.zip",
+    "gifUrl": "/previews/Lights%20bootanimation.gif",
+    "coverUrl": "/extracted/Lights%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "line-bootanimation",
+    "folderName": "Line bootanimation",
+    "name": "Line",
+    "width": 900,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 102630,
+    "sizeFormatted": "100.22 KB",
+    "zipName": "Line bootanimation.zip",
+    "zipUrl": "/source-zips/Line%20bootanimation.zip",
+    "gifUrl": "/previews/Line%20bootanimation.gif",
+    "coverUrl": "/extracted/Line%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "lion-bootanimation",
+    "folderName": "Lion bootanimation",
+    "name": "Lion",
+    "width": 1200,
+    "height": 900,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1662719,
+    "sizeFormatted": "1.59 MB",
+    "zipName": "Lion bootanimation.zip",
+    "zipUrl": "/source-zips/Lion%20bootanimation.zip",
+    "gifUrl": "/previews/Lion%20bootanimation.gif",
+    "coverUrl": "/extracted/Lion%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "liquid-bootanimation",
+    "folderName": "Liquid bootanimation",
+    "name": "Liquid",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 262313,
+    "sizeFormatted": "256.17 KB",
+    "zipName": "Liquid bootanimation.zip",
+    "zipUrl": "/source-zips/Liquid%20bootanimation.zip",
+    "gifUrl": "/previews/Liquid%20bootanimation.gif",
+    "coverUrl": "/extracted/Liquid%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "load-it-2-bootanimation",
+    "folderName": "Load It 2 bootanimation",
+    "name": "Load It 2",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1037462,
+    "sizeFormatted": "1013.15 KB",
+    "zipName": "Load It 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Load%20It%202%20bootanimation.zip",
+    "gifUrl": "/previews/Load%20It%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Load%20It%202%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "load-it-bootanimation",
+    "folderName": "Load It bootanimation",
+    "name": "Load It",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3221176,
+    "sizeFormatted": "3.07 MB",
+    "zipName": "Load It bootanimation.zip",
+    "zipUrl": "/source-zips/Load%20It%20bootanimation.zip",
+    "gifUrl": "/previews/Load%20It%20bootanimation.gif",
+    "coverUrl": "/extracted/Load%20It%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "loader-2-bootanimation",
+    "folderName": "Loader 2 bootanimation",
+    "name": "Loader 2",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1647015,
+    "sizeFormatted": "1.57 MB",
+    "zipName": "Loader 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Loader%202%20bootanimation.zip",
+    "gifUrl": "/previews/Loader%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Loader%202%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "loader-3-bootanimation",
+    "folderName": "Loader 3 bootanimation",
+    "name": "Loader 3",
+    "width": 600,
+    "height": 450,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 873883,
+    "sizeFormatted": "853.4 KB",
+    "zipName": "Loader 3 bootanimation.zip",
+    "zipUrl": "/source-zips/Loader%203%20bootanimation.zip",
+    "gifUrl": "/previews/Loader%203%20bootanimation.gif",
+    "coverUrl": "/extracted/Loader%203%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "loader-3-0-bootanimation",
+    "folderName": "Loader 3.0 bootanimation",
+    "name": "Loader 3.0",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1859036,
+    "sizeFormatted": "1.77 MB",
+    "zipName": "Loader 3.0 bootanimation.zip",
+    "zipUrl": "/source-zips/Loader%203.0%20bootanimation.zip",
+    "gifUrl": "/previews/Loader%203.0%20bootanimation.gif",
+    "coverUrl": "/extracted/Loader%203.0%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "loader-effect-bootanimation",
+    "folderName": "Loader Effect bootanimation",
+    "name": "Loader Effect",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 555429,
+    "sizeFormatted": "542.41 KB",
+    "zipName": "Loader Effect bootanimation.zip",
+    "zipUrl": "/source-zips/Loader%20Effect%20bootanimation.zip",
+    "gifUrl": "/previews/Loader%20Effect%20bootanimation.gif",
+    "coverUrl": "/extracted/Loader%20Effect%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "loader-bootanimation",
+    "folderName": "Loader bootanimation",
+    "name": "Loader",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3279083,
+    "sizeFormatted": "3.13 MB",
+    "zipName": "Loader bootanimation.zip",
+    "zipUrl": "/source-zips/Loader%20bootanimation.zip",
+    "gifUrl": "/previews/Loader%20bootanimation.gif",
+    "coverUrl": "/extracted/Loader%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "loading-type-bootanimation",
+    "folderName": "Loading Type bootanimation",
+    "name": "Loading Type",
+    "width": 1500,
+    "height": 1125,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 625428,
+    "sizeFormatted": "610.77 KB",
+    "zipName": "Loading Type bootanimation.zip",
+    "zipUrl": "/source-zips/Loading%20Type%20bootanimation.zip",
+    "gifUrl": "/previews/Loading%20Type%20bootanimation.gif",
+    "coverUrl": "/extracted/Loading%20Type%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "loading-bootanimation",
+    "folderName": "Loading bootanimation",
+    "name": "Loading",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 327435,
+    "sizeFormatted": "319.76 KB",
+    "zipName": "Loading bootanimation.zip",
+    "zipUrl": "/source-zips/Loading%20bootanimation.zip",
+    "gifUrl": "/previews/Loading%20bootanimation.gif",
+    "coverUrl": "/extracted/Loading%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "lone-bootanimation",
+    "folderName": "Lone bootanimation",
+    "name": "Lone",
+    "width": 500,
+    "height": 500,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 804363,
+    "sizeFormatted": "785.51 KB",
+    "zipName": "Lone bootanimation.zip",
+    "zipUrl": "/source-zips/Lone%20bootanimation.zip",
+    "gifUrl": "/previews/Lone%20bootanimation.gif",
+    "coverUrl": "/extracted/Lone%20bootanimation/part0/frame_00_delay-0.06s.png"
+  },
+  {
+    "id": "melting-loader-bootanimation",
+    "folderName": "Melting Loader bootanimation",
+    "name": "Melting Loader",
+    "width": 1200,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3720523,
+    "sizeFormatted": "3.55 MB",
+    "zipName": "Melting Loader bootanimation.zip",
+    "zipUrl": "/source-zips/Melting%20Loader%20bootanimation.zip",
+    "gifUrl": "/previews/Melting%20Loader%20bootanimation.gif",
+    "coverUrl": "/extracted/Melting%20Loader%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "microsoft-bootanimation",
+    "folderName": "Microsoft bootanimation",
+    "name": "Microsoft",
+    "width": 1000,
+    "height": 750,
+    "fps": 60,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 963794,
+    "sizeFormatted": "941.21 KB",
+    "zipName": "Microsoft bootanimation.zip",
+    "zipUrl": "/source-zips/Microsoft%20bootanimation.zip",
+    "gifUrl": "/previews/Microsoft%20bootanimation.gif",
+    "coverUrl": "/extracted/Microsoft%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "motion-bootanimation",
+    "folderName": "Motion bootanimation",
+    "name": "Motion",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1583702,
+    "sizeFormatted": "1.51 MB",
+    "zipName": "Motion bootanimation.zip",
+    "zipUrl": "/source-zips/Motion%20bootanimation.zip",
+    "gifUrl": "/previews/Motion%20bootanimation.gif",
+    "coverUrl": "/extracted/Motion%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "multicube-bootanimation",
+    "folderName": "Multicube bootanimation",
+    "name": "Multicube",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1620209,
+    "sizeFormatted": "1.55 MB",
+    "zipName": "Multicube bootanimation.zip",
+    "zipUrl": "/source-zips/Multicube%20bootanimation.zip",
+    "gifUrl": "/previews/Multicube%20bootanimation.gif",
+    "coverUrl": "/extracted/Multicube%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "mystic-bootanimation",
+    "folderName": "Mystic bootanimation",
+    "name": "Mystic",
+    "width": 600,
+    "height": 699,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 811673,
+    "sizeFormatted": "792.65 KB",
+    "zipName": "Mystic bootanimation.zip",
+    "zipUrl": "/source-zips/Mystic%20bootanimation.zip",
+    "gifUrl": "/previews/Mystic%20bootanimation.gif",
+    "coverUrl": "/extracted/Mystic%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "node-lock-bootanimation",
+    "folderName": "Node Lock bootanimation",
+    "name": "Node Lock",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1536705,
+    "sizeFormatted": "1.47 MB",
+    "zipName": "Node Lock bootanimation.zip",
+    "zipUrl": "/source-zips/Node%20Lock%20bootanimation.zip",
+    "gifUrl": "/previews/Node%20Lock%20bootanimation.gif",
+    "coverUrl": "/extracted/Node%20Lock%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "oblique-bootanimation",
+    "folderName": "Oblique bootanimation",
+    "name": "Oblique",
+    "width": 300,
+    "height": 300,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 885436,
+    "sizeFormatted": "864.68 KB",
+    "zipName": "Oblique bootanimation.zip",
+    "zipUrl": "/source-zips/Oblique%20bootanimation.zip",
+    "gifUrl": "/previews/Oblique%20bootanimation.gif",
+    "coverUrl": "/extracted/Oblique%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "optimus-bootanimation",
+    "folderName": "Optimus bootanimation",
+    "name": "Optimus",
+    "width": 1150,
+    "height": 950,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1857937,
+    "sizeFormatted": "1.77 MB",
+    "zipName": "Optimus bootanimation.zip",
+    "zipUrl": "/source-zips/Optimus%20bootanimation.zip",
+    "gifUrl": "/previews/Optimus%20bootanimation.gif",
+    "coverUrl": "/extracted/Optimus%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "orbit-bootanimation",
+    "folderName": "Orbit bootanimation",
+    "name": "Orbit",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1109374,
+    "sizeFormatted": "1.06 MB",
+    "zipName": "Orbit bootanimation.zip",
+    "zipUrl": "/source-zips/Orbit%20bootanimation.zip",
+    "gifUrl": "/previews/Orbit%20bootanimation.gif",
+    "coverUrl": "/extracted/Orbit%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "ouroboros-bootanimation",
+    "folderName": "Ouroboros bootanimation",
+    "name": "Ouroboros",
+    "width": 500,
+    "height": 500,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3576008,
+    "sizeFormatted": "3.41 MB",
+    "zipName": "Ouroboros bootanimation.zip",
+    "zipUrl": "/source-zips/Ouroboros%20bootanimation.zip",
+    "gifUrl": "/previews/Ouroboros%20bootanimation.gif",
+    "coverUrl": "/extracted/Ouroboros%20bootanimation/part0/frame_00_delay-0.06s.png"
+  },
+  {
+    "id": "overwatch-spinner-bootanimation",
+    "folderName": "Overwatch Spinner bootanimation",
+    "name": "Overwatch Spinner",
+    "width": 800,
+    "height": 600,
+    "fps": 25,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 974814,
+    "sizeFormatted": "951.97 KB",
+    "zipName": "Overwatch Spinner bootanimation.zip",
+    "zipUrl": "/source-zips/Overwatch%20Spinner%20bootanimation.zip",
+    "gifUrl": "/previews/Overwatch%20Spinner%20bootanimation.gif",
+    "coverUrl": "/extracted/Overwatch%20Spinner%20bootanimation/part0/frame_00_delay-0.05s.png"
+  },
+  {
+    "id": "owl-bootanimation",
+    "folderName": "Owl bootanimation",
+    "name": "Owl",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 11133523,
+    "sizeFormatted": "10.62 MB",
+    "zipName": "Owl bootanimation.zip",
+    "zipUrl": "/source-zips/Owl%20bootanimation.zip",
+    "gifUrl": "/previews/Owl%20bootanimation.gif",
+    "coverUrl": "/extracted/Owl%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "psx-bootanimation",
+    "folderName": "PSX bootanimation",
+    "name": "PSX",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 938323,
+    "sizeFormatted": "916.33 KB",
+    "zipName": "PSX bootanimation.zip",
+    "zipUrl": "/source-zips/PSX%20bootanimation.zip",
+    "gifUrl": "/previews/PSX%20bootanimation.gif",
+    "coverUrl": "/extracted/PSX%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "particles-bootanimation",
+    "folderName": "Particles bootanimation",
+    "name": "Particles",
+    "width": 1000,
+    "height": 563,
+    "fps": 25,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 674497,
+    "sizeFormatted": "658.69 KB",
+    "zipName": "Particles bootanimation.zip",
+    "zipUrl": "/source-zips/Particles%20bootanimation.zip",
+    "gifUrl": "/previews/Particles%20bootanimation.gif",
+    "coverUrl": "/extracted/Particles%20bootanimation/part0/000.png"
+  },
+  {
+    "id": "pentagon-bootanimation",
+    "folderName": "Pentagon bootanimation",
+    "name": "Pentagon",
+    "width": 800,
+    "height": 800,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1648224,
+    "sizeFormatted": "1.57 MB",
+    "zipName": "Pentagon bootanimation.zip",
+    "zipUrl": "/source-zips/Pentagon%20bootanimation.zip",
+    "gifUrl": "/previews/Pentagon%20bootanimation.gif",
+    "coverUrl": "/extracted/Pentagon%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "pie-bootanimation",
+    "folderName": "Pie bootanimation",
+    "name": "Pie",
+    "width": 500,
+    "height": 500,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 892939,
+    "sizeFormatted": "872.01 KB",
+    "zipName": "Pie bootanimation.zip",
+    "zipUrl": "/source-zips/Pie%20bootanimation.zip",
+    "gifUrl": "/previews/Pie%20bootanimation.gif",
+    "coverUrl": "/extracted/Pie%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "pin-bootanimation",
+    "folderName": "Pin bootanimation",
+    "name": "Pin",
+    "width": 840,
+    "height": 840,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2041404,
+    "sizeFormatted": "1.95 MB",
+    "zipName": "Pin bootanimation.zip",
+    "zipUrl": "/source-zips/Pin%20bootanimation.zip",
+    "gifUrl": "/previews/Pin%20bootanimation.gif",
+    "coverUrl": "/extracted/Pin%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "pitbull-bootanimation",
+    "folderName": "Pitbull bootanimation",
+    "name": "Pitbull",
+    "width": 600,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1753666,
+    "sizeFormatted": "1.67 MB",
+    "zipName": "Pitbull bootanimation.zip",
+    "zipUrl": "/source-zips/Pitbull%20bootanimation.zip",
+    "gifUrl": "/previews/Pitbull%20bootanimation.gif",
+    "coverUrl": "/extracted/Pitbull%20bootanimation/part0/frame_000_delay-0.06s.png"
+  },
+  {
+    "id": "pixels-bootanimation",
+    "folderName": "Pixels bootanimation",
+    "name": "Pixels",
+    "width": 700,
+    "height": 525,
+    "fps": 60,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6141364,
+    "sizeFormatted": "5.86 MB",
+    "zipName": "Pixels bootanimation.zip",
+    "zipUrl": "/source-zips/Pixels%20bootanimation.zip",
+    "gifUrl": "/previews/Pixels%20bootanimation.gif",
+    "coverUrl": "/extracted/Pixels%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "point-bootanimation",
+    "folderName": "Point bootanimation",
+    "name": "Point",
+    "width": 1300,
+    "height": 975,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1708034,
+    "sizeFormatted": "1.63 MB",
+    "zipName": "Point bootanimation.zip",
+    "zipUrl": "/source-zips/Point%20bootanimation.zip",
+    "gifUrl": "/previews/Point%20bootanimation.gif",
+    "coverUrl": "/extracted/Point%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "polaroid-bootanimation",
+    "folderName": "Polaroid bootanimation",
+    "name": "Polaroid",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1626487,
+    "sizeFormatted": "1.55 MB",
+    "zipName": "Polaroid bootanimation.zip",
+    "zipUrl": "/source-zips/Polaroid%20bootanimation.zip",
+    "gifUrl": "/previews/Polaroid%20bootanimation.gif",
+    "coverUrl": "/extracted/Polaroid%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "preloader-2-bootanimation",
+    "folderName": "Preloader 2 bootanimation",
+    "name": "Preloader 2",
+    "width": 900,
+    "height": 675,
+    "fps": 60,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4362640,
+    "sizeFormatted": "4.16 MB",
+    "zipName": "Preloader 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Preloader%202%20bootanimation.zip",
+    "gifUrl": "/previews/Preloader%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Preloader%202%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "preloader-bootanimation",
+    "folderName": "Preloader bootanimation",
+    "name": "Preloader",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 452387,
+    "sizeFormatted": "441.78 KB",
+    "zipName": "Preloader bootanimation.zip",
+    "zipUrl": "/source-zips/Preloader%20bootanimation.zip",
+    "gifUrl": "/previews/Preloader%20bootanimation.gif",
+    "coverUrl": "/extracted/Preloader%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "quarters-bootanimation",
+    "folderName": "Quarters bootanimation",
+    "name": "Quarters",
+    "width": 1000,
+    "height": 563,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2940129,
+    "sizeFormatted": "2.8 MB",
+    "zipName": "Quarters bootanimation.zip",
+    "zipUrl": "/source-zips/Quarters%20bootanimation.zip",
+    "gifUrl": "/previews/Quarters%20bootanimation.gif",
+    "coverUrl": "/extracted/Quarters%20bootanimation/part0/001.png"
+  },
+  {
+    "id": "rgy-loader-bootanimation",
+    "folderName": "RGY Loader bootanimation",
+    "name": "RGY Loader",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 7828335,
+    "sizeFormatted": "7.47 MB",
+    "zipName": "RGY Loader bootanimation.zip",
+    "zipUrl": "/source-zips/RGY%20Loader%20bootanimation.zip",
+    "gifUrl": "/previews/RGY%20Loader%20bootanimation.gif",
+    "coverUrl": "/extracted/RGY%20Loader%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "rog-2-bootanimation",
+    "folderName": "ROG 2 bootanimation",
+    "name": "ROG 2",
+    "width": 1380,
+    "height": 920,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1484961,
+    "sizeFormatted": "1.42 MB",
+    "zipName": "ROG 2 bootanimation.zip",
+    "zipUrl": "/source-zips/ROG%202%20bootanimation.zip",
+    "gifUrl": "/previews/ROG%202%20bootanimation.gif",
+    "coverUrl": "/extracted/ROG%202%20bootanimation/part0/000.png"
+  },
+  {
+    "id": "rog-3d-bootanimation",
+    "folderName": "ROG 3D bootanimation",
+    "name": "ROG 3D",
+    "width": 983,
+    "height": 553,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1815013,
+    "sizeFormatted": "1.73 MB",
+    "zipName": "ROG 3D bootanimation.zip",
+    "zipUrl": "/source-zips/ROG%203D%20bootanimation.zip",
+    "gifUrl": "/previews/ROG%203D%20bootanimation.gif",
+    "coverUrl": "/extracted/ROG%203D%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "rog-bootanimation",
+    "folderName": "ROG bootanimation",
+    "name": "ROG",
+    "width": 1380,
+    "height": 920,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 1,
+        "pause": 0,
+        "folder": "part0"
+      },
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part1"
+      }
+    ],
+    "sizeBytes": 9459783,
+    "sizeFormatted": "9.02 MB",
+    "zipName": "ROG bootanimation.zip",
+    "zipUrl": "/source-zips/ROG%20bootanimation.zip",
+    "gifUrl": null,
+    "coverUrl": "/extracted/ROG%20bootanimation/part0/001.jpg"
+  },
+  {
+    "id": "rainbow-orbit-bootanimation",
+    "folderName": "Rainbow Orbit bootanimation",
+    "name": "Rainbow Orbit",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 379978,
+    "sizeFormatted": "371.07 KB",
+    "zipName": "Rainbow Orbit bootanimation.zip",
+    "zipUrl": "/source-zips/Rainbow%20Orbit%20bootanimation.zip",
+    "gifUrl": "/previews/Rainbow%20Orbit%20bootanimation.gif",
+    "coverUrl": "/extracted/Rainbow%20Orbit%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "rapture-bootanimation",
+    "folderName": "Rapture bootanimation",
+    "name": "Rapture",
+    "width": 665,
+    "height": 665,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3554191,
+    "sizeFormatted": "3.39 MB",
+    "zipName": "Rapture bootanimation.zip",
+    "zipUrl": "/source-zips/Rapture%20bootanimation.zip",
+    "gifUrl": "/previews/Rapture%20bootanimation.gif",
+    "coverUrl": "/extracted/Rapture%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "red-hive-bootanimation",
+    "folderName": "Red Hive bootanimation",
+    "name": "Red Hive",
+    "width": 1000,
+    "height": 750,
+    "fps": 60,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 966959,
+    "sizeFormatted": "944.3 KB",
+    "zipName": "Red Hive bootanimation.zip",
+    "zipUrl": "/source-zips/Red%20Hive%20bootanimation.zip",
+    "gifUrl": "/previews/Red%20Hive%20bootanimation.gif",
+    "coverUrl": "/extracted/Red%20Hive%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "red-loader-bootanimation",
+    "folderName": "Red Loader bootanimation",
+    "name": "Red Loader",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 496426,
+    "sizeFormatted": "484.79 KB",
+    "zipName": "Red Loader bootanimation.zip",
+    "zipUrl": "/source-zips/Red%20Loader%20bootanimation.zip",
+    "gifUrl": "/previews/Red%20Loader%20bootanimation.gif",
+    "coverUrl": "/extracted/Red%20Loader%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "rings-2-bootanimation",
+    "folderName": "Rings 2 bootanimation",
+    "name": "Rings 2",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6585761,
+    "sizeFormatted": "6.28 MB",
+    "zipName": "Rings 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Rings%202%20bootanimation.zip",
+    "gifUrl": "/previews/Rings%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Rings%202%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "rings-bootanimation",
+    "folderName": "Rings bootanimation",
+    "name": "Rings",
+    "width": 540,
+    "height": 540,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2354876,
+    "sizeFormatted": "2.25 MB",
+    "zipName": "Rings bootanimation.zip",
+    "zipUrl": "/source-zips/Rings%20bootanimation.zip",
+    "gifUrl": "/previews/Rings%20bootanimation.gif",
+    "coverUrl": "/extracted/Rings%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "rubik-bootanimation",
+    "folderName": "Rubik bootanimation",
+    "name": "Rubik",
+    "width": 1000,
+    "height": 750,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 665670,
+    "sizeFormatted": "650.07 KB",
+    "zipName": "Rubik bootanimation.zip",
+    "zipUrl": "/source-zips/Rubik%20bootanimation.zip",
+    "gifUrl": "/previews/Rubik%20bootanimation.gif",
+    "coverUrl": "/extracted/Rubik%20bootanimation/part0/frame_000_delay-0.1s.png"
+  },
+  {
+    "id": "samsung-bootanimation",
+    "folderName": "Samsung bootanimation",
+    "name": "Samsung",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1055007,
+    "sizeFormatted": "1.01 MB",
+    "zipName": "Samsung bootanimation.zip",
+    "zipUrl": "/source-zips/Samsung%20bootanimation.zip",
+    "gifUrl": "/previews/Samsung%20bootanimation.gif",
+    "coverUrl": "/extracted/Samsung%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "seal-3-bootanimation",
+    "folderName": "Seal 3 bootanimation",
+    "name": "Seal 3",
+    "width": 600,
+    "height": 450,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6960165,
+    "sizeFormatted": "6.64 MB",
+    "zipName": "Seal 3 bootanimation.zip",
+    "zipUrl": "/source-zips/Seal%203%20bootanimation.zip",
+    "gifUrl": "/previews/Seal%203%20bootanimation.gif",
+    "coverUrl": "/extracted/Seal%203%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "seal-bootanimation",
+    "folderName": "Seal bootanimation",
+    "name": "Seal",
+    "width": 600,
+    "height": 450,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6111241,
+    "sizeFormatted": "5.83 MB",
+    "zipName": "Seal bootanimation.zip",
+    "zipUrl": "/source-zips/Seal%20bootanimation.zip",
+    "gifUrl": "/previews/Seal%20bootanimation.gif",
+    "coverUrl": "/extracted/Seal%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "shuffle-bootanimation",
+    "folderName": "Shuffle bootanimation",
+    "name": "Shuffle",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3049513,
+    "sizeFormatted": "2.91 MB",
+    "zipName": "Shuffle bootanimation.zip",
+    "zipUrl": "/source-zips/Shuffle%20bootanimation.zip",
+    "gifUrl": "/previews/Shuffle%20bootanimation.gif",
+    "coverUrl": "/extracted/Shuffle%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "shuffled-bootanimation",
+    "folderName": "Shuffled bootanimation",
+    "name": "Shuffled",
+    "width": 700,
+    "height": 700,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2151804,
+    "sizeFormatted": "2.05 MB",
+    "zipName": "Shuffled bootanimation.zip",
+    "zipUrl": "/source-zips/Shuffled%20bootanimation.zip",
+    "gifUrl": "/previews/Shuffled%20bootanimation.gif",
+    "coverUrl": "/extracted/Shuffled%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "sliced-bootanimation",
+    "folderName": "Sliced bootanimation",
+    "name": "Sliced",
+    "width": 450,
+    "height": 450,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 60,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2544820,
+    "sizeFormatted": "2.43 MB",
+    "zipName": "Sliced bootanimation.zip",
+    "zipUrl": "/source-zips/Sliced%20bootanimation.zip",
+    "gifUrl": "/previews/Sliced%20bootanimation.gif",
+    "coverUrl": "/extracted/Sliced%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "slices-bootanimation",
+    "folderName": "Slices bootanimation",
+    "name": "Slices",
+    "width": 754,
+    "height": 565,
+    "fps": 20,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 90,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 154669,
+    "sizeFormatted": "151.04 KB",
+    "zipName": "Slices bootanimation.zip",
+    "zipUrl": "/source-zips/Slices%20bootanimation.zip",
+    "gifUrl": "/previews/Slices%20bootanimation.gif",
+    "coverUrl": "/extracted/Slices%20bootanimation/part0/frame_00_delay-0.01s.png"
+  },
+  {
+    "id": "sliding-squares-bootanimation",
+    "folderName": "Sliding Squares bootanimation",
+    "name": "Sliding Squares",
+    "width": 1200,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2186066,
+    "sizeFormatted": "2.08 MB",
+    "zipName": "Sliding Squares bootanimation.zip",
+    "zipUrl": "/source-zips/Sliding%20Squares%20bootanimation.zip",
+    "gifUrl": "/previews/Sliding%20Squares%20bootanimation.gif",
+    "coverUrl": "/extracted/Sliding%20Squares%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "snowflake-bootanimation",
+    "folderName": "Snowflake bootanimation",
+    "name": "Snowflake",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 7774993,
+    "sizeFormatted": "7.41 MB",
+    "zipName": "Snowflake bootanimation.zip",
+    "zipUrl": "/source-zips/Snowflake%20bootanimation.zip",
+    "gifUrl": "/previews/Snowflake%20bootanimation.gif",
+    "coverUrl": "/extracted/Snowflake%20bootanimation/part0/frame_00_delay-0.02s.png"
+  },
+  {
+    "id": "solaris-bootanimation",
+    "folderName": "Solaris bootanimation",
+    "name": "Solaris",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 14799679,
+    "sizeFormatted": "14.11 MB",
+    "zipName": "Solaris bootanimation.zip",
+    "zipUrl": "/source-zips/Solaris%20bootanimation.zip",
+    "gifUrl": "/previews/Solaris%20bootanimation.gif",
+    "coverUrl": "/extracted/Solaris%20bootanimation/part0/frame_000_delay-0.1s.png"
+  },
+  {
+    "id": "sonic-bootanimation",
+    "folderName": "Sonic bootanimation",
+    "name": "Sonic",
+    "width": 1200,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1475855,
+    "sizeFormatted": "1.41 MB",
+    "zipName": "Sonic bootanimation.zip",
+    "zipUrl": "/source-zips/Sonic%20bootanimation.zip",
+    "gifUrl": "/previews/Sonic%20bootanimation.gif",
+    "coverUrl": "/extracted/Sonic%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "space-chase-bootanimation",
+    "folderName": "Space Chase bootanimation",
+    "name": "Space Chase",
+    "width": 800,
+    "height": 600,
+    "fps": 65,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 7995571,
+    "sizeFormatted": "7.63 MB",
+    "zipName": "Space Chase bootanimation.zip",
+    "zipUrl": "/source-zips/Space%20Chase%20bootanimation.zip",
+    "gifUrl": "/previews/Space%20Chase%20bootanimation.gif",
+    "coverUrl": "/extracted/Space%20Chase%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "sphere-bootanimation",
+    "folderName": "Sphere bootanimation",
+    "name": "Sphere",
+    "width": 500,
+    "height": 500,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 479002,
+    "sizeFormatted": "467.78 KB",
+    "zipName": "Sphere bootanimation.zip",
+    "zipUrl": "/source-zips/Sphere%20bootanimation.zip",
+    "gifUrl": "/previews/Sphere%20bootanimation.gif",
+    "coverUrl": "/extracted/Sphere%20bootanimation/part0/frame_00_delay-0.05s.png"
+  },
+  {
+    "id": "spider-cube-bootanimation",
+    "folderName": "Spider Cube bootanimation",
+    "name": "Spider Cube",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 5842744,
+    "sizeFormatted": "5.57 MB",
+    "zipName": "Spider Cube bootanimation.zip",
+    "zipUrl": "/source-zips/Spider%20Cube%20bootanimation.zip",
+    "gifUrl": "/previews/Spider%20Cube%20bootanimation.gif",
+    "coverUrl": "/extracted/Spider%20Cube%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "spin-bootanimation",
+    "folderName": "Spin bootanimation",
+    "name": "Spin",
+    "width": 1000,
+    "height": 625,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 7613528,
+    "sizeFormatted": "7.26 MB",
+    "zipName": "Spin bootanimation.zip",
+    "zipUrl": "/source-zips/Spin%20bootanimation.zip",
+    "gifUrl": "/previews/Spin%20bootanimation.gif",
+    "coverUrl": "/extracted/Spin%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "spinner-bootanimation",
+    "folderName": "Spinner bootanimation",
+    "name": "Spinner",
+    "width": 700,
+    "height": 1050,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 973991,
+    "sizeFormatted": "951.16 KB",
+    "zipName": "Spinner bootanimation.zip",
+    "zipUrl": "/source-zips/Spinner%20bootanimation.zip",
+    "gifUrl": "/previews/Spinner%20bootanimation.gif",
+    "coverUrl": "/extracted/Spinner%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "spinners-bootanimation",
+    "folderName": "Spinners bootanimation",
+    "name": "Spinners",
+    "width": 700,
+    "height": 700,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2737985,
+    "sizeFormatted": "2.61 MB",
+    "zipName": "Spinners bootanimation.zip",
+    "zipUrl": "/source-zips/Spinners%20bootanimation.zip",
+    "gifUrl": "/previews/Spinners%20bootanimation.gif",
+    "coverUrl": "/extracted/Spinners%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "splash-bootanimation",
+    "folderName": "Splash bootanimation",
+    "name": "Splash",
+    "width": 1000,
+    "height": 750,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 493791,
+    "sizeFormatted": "482.22 KB",
+    "zipName": "Splash bootanimation.zip",
+    "zipUrl": "/source-zips/Splash%20bootanimation.zip",
+    "gifUrl": "/previews/Splash%20bootanimation.gif",
+    "coverUrl": "/extracted/Splash%20bootanimation/part0/frame_00_delay-0.05s.png"
+  },
+  {
+    "id": "spot-bootanimation",
+    "folderName": "Spot bootanimation",
+    "name": "Spot",
+    "width": 1000,
+    "height": 563,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 382950,
+    "sizeFormatted": "373.97 KB",
+    "zipName": "Spot bootanimation.zip",
+    "zipUrl": "/source-zips/Spot%20bootanimation.zip",
+    "gifUrl": "/previews/Spot%20bootanimation.gif",
+    "coverUrl": "/extracted/Spot%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "square-hud-bootanimation",
+    "folderName": "Square Hud bootanimation",
+    "name": "Square Hud",
+    "width": 1200,
+    "height": 900,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 315420,
+    "sizeFormatted": "308.03 KB",
+    "zipName": "Square Hud bootanimation.zip",
+    "zipUrl": "/source-zips/Square%20Hud%20bootanimation.zip",
+    "gifUrl": "/previews/Square%20Hud%20bootanimation.gif",
+    "coverUrl": "/extracted/Square%20Hud%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "square-shape-bootanimation",
+    "folderName": "Square Shape bootanimation",
+    "name": "Square Shape",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1619597,
+    "sizeFormatted": "1.54 MB",
+    "zipName": "Square Shape bootanimation.zip",
+    "zipUrl": "/source-zips/Square%20Shape%20bootanimation.zip",
+    "gifUrl": "/previews/Square%20Shape%20bootanimation.gif",
+    "coverUrl": "/extracted/Square%20Shape%20bootanimation/part0/frame_00_delay-0.02s.png"
+  },
+  {
+    "id": "square-bootanimation",
+    "folderName": "Square bootanimation",
+    "name": "Square",
+    "width": 712,
+    "height": 709,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1181632,
+    "sizeFormatted": "1.13 MB",
+    "zipName": "Square bootanimation.zip",
+    "zipUrl": "/source-zips/Square%20bootanimation.zip",
+    "gifUrl": "/previews/Square%20bootanimation.gif",
+    "coverUrl": "/extracted/Square%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "squircles-bootanimation",
+    "folderName": "Squircles bootanimation",
+    "name": "Squircles",
+    "width": 1029,
+    "height": 600,
+    "fps": 20,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 336924,
+    "sizeFormatted": "329.03 KB",
+    "zipName": "Squircles bootanimation.zip",
+    "zipUrl": "/source-zips/Squircles%20bootanimation.zip",
+    "gifUrl": "/previews/Squircles%20bootanimation.gif",
+    "coverUrl": "/extracted/Squircles%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "star-bootanimation",
+    "folderName": "Star bootanimation",
+    "name": "Star",
+    "width": 1600,
+    "height": 1200,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 462776,
+    "sizeFormatted": "451.93 KB",
+    "zipName": "Star bootanimation.zip",
+    "zipUrl": "/source-zips/Star%20bootanimation.zip",
+    "gifUrl": "/previews/Star%20bootanimation.gif",
+    "coverUrl": "/extracted/Star%20bootanimation/part0/frame_00_delay-0.07s.png"
+  },
+  {
+    "id": "still-loading-bootanimation",
+    "folderName": "Still Loading bootanimation",
+    "name": "Still Loading",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1335302,
+    "sizeFormatted": "1.27 MB",
+    "zipName": "Still Loading bootanimation.zip",
+    "zipUrl": "/source-zips/Still%20Loading%20bootanimation.zip",
+    "gifUrl": "/previews/Still%20Loading%20bootanimation.gif",
+    "coverUrl": "/extracted/Still%20Loading%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "stormtrooper-bootanimation",
+    "folderName": "Stormtrooper bootanimation",
+    "name": "Stormtrooper",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2944220,
+    "sizeFormatted": "2.81 MB",
+    "zipName": "Stormtrooper bootanimation.zip",
+    "zipUrl": "/source-zips/Stormtrooper%20bootanimation.zip",
+    "gifUrl": "/previews/Stormtrooper%20bootanimation.gif",
+    "coverUrl": "/extracted/Stormtrooper%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "symbol-bootanimation",
+    "folderName": "Symbol bootanimation",
+    "name": "Symbol",
+    "width": 1174,
+    "height": 778,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 960648,
+    "sizeFormatted": "938.13 KB",
+    "zipName": "Symbol bootanimation.zip",
+    "zipUrl": "/source-zips/Symbol%20bootanimation.zip",
+    "gifUrl": "/previews/Symbol%20bootanimation.gif",
+    "coverUrl": "/extracted/Symbol%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "target-2-bootanimation",
+    "folderName": "Target 2 bootanimation",
+    "name": "Target 2",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6060665,
+    "sizeFormatted": "5.78 MB",
+    "zipName": "Target 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Target%202%20bootanimation.zip",
+    "gifUrl": "/previews/Target%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Target%202%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "target-bootanimation",
+    "folderName": "Target bootanimation",
+    "name": "Target",
+    "width": 800,
+    "height": 451,
+    "fps": 15,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3833909,
+    "sizeFormatted": "3.66 MB",
+    "zipName": "Target bootanimation.zip",
+    "zipUrl": "/source-zips/Target%20bootanimation.zip",
+    "gifUrl": "/previews/Target%20bootanimation.gif",
+    "coverUrl": "/extracted/Target%20bootanimation/part0/frame_000_delay-0.1s.png"
+  },
+  {
+    "id": "tech-2-bootanimation",
+    "folderName": "Tech 2 bootanimation",
+    "name": "Tech 2",
+    "width": 800,
+    "height": 800,
+    "fps": 25,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 9172008,
+    "sizeFormatted": "8.75 MB",
+    "zipName": "Tech 2 bootanimation.zip",
+    "zipUrl": "/source-zips/Tech%202%20bootanimation.zip",
+    "gifUrl": "/previews/Tech%202%20bootanimation.gif",
+    "coverUrl": "/extracted/Tech%202%20bootanimation/part0/frame_000_delay-0.1s.png"
+  },
+  {
+    "id": "tire-bootanimation",
+    "folderName": "Tire bootanimation",
+    "name": "Tire",
+    "width": 500,
+    "height": 375,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 7440471,
+    "sizeFormatted": "7.1 MB",
+    "zipName": "Tire bootanimation.zip",
+    "zipUrl": "/source-zips/Tire%20bootanimation.zip",
+    "gifUrl": "/previews/Tire%20bootanimation.gif",
+    "coverUrl": "/extracted/Tire%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "triangles-bootanimation",
+    "folderName": "Triangles bootanimation",
+    "name": "Triangles",
+    "width": 800,
+    "height": 600,
+    "fps": 60,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2431286,
+    "sizeFormatted": "2.32 MB",
+    "zipName": "Triangles bootanimation.zip",
+    "zipUrl": "/source-zips/Triangles%20bootanimation.zip",
+    "gifUrl": "/previews/Triangles%20bootanimation.gif",
+    "coverUrl": "/extracted/Triangles%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "twenty-bootanimation",
+    "folderName": "Twenty bootanimation",
+    "name": "Twenty",
+    "width": 800,
+    "height": 800,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4263345,
+    "sizeFormatted": "4.07 MB",
+    "zipName": "Twenty bootanimation.zip",
+    "zipUrl": "/source-zips/Twenty%20bootanimation.zip",
+    "gifUrl": "/previews/Twenty%20bootanimation.gif",
+    "coverUrl": "/extracted/Twenty%20bootanimation/part0/frame_00_delay-0.05s.png"
+  },
+  {
+    "id": "twist-bootanimation",
+    "folderName": "Twist bootanimation",
+    "name": "Twist",
+    "width": 800,
+    "height": 600,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6138328,
+    "sizeFormatted": "5.85 MB",
+    "zipName": "Twist bootanimation.zip",
+    "zipUrl": "/source-zips/Twist%20bootanimation.zip",
+    "gifUrl": "/previews/Twist%20bootanimation.gif",
+    "coverUrl": "/extracted/Twist%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "ufo-spinner-bootanimation",
+    "folderName": "UFO Spinner bootanimation",
+    "name": "UFO Spinner",
+    "width": 774,
+    "height": 574,
+    "fps": 25,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1956491,
+    "sizeFormatted": "1.87 MB",
+    "zipName": "UFO Spinner bootanimation.zip",
+    "zipUrl": "/source-zips/UFO%20Spinner%20bootanimation.zip",
+    "gifUrl": "/previews/UFO%20Spinner%20bootanimation.gif",
+    "coverUrl": "/extracted/UFO%20Spinner%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "umbrella-bootanimation",
+    "folderName": "Umbrella bootanimation",
+    "name": "Umbrella",
+    "width": 600,
+    "height": 600,
+    "fps": 60,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2045928,
+    "sizeFormatted": "1.95 MB",
+    "zipName": "Umbrella bootanimation.zip",
+    "zipUrl": "/source-zips/Umbrella%20bootanimation.zip",
+    "gifUrl": "/previews/Umbrella%20bootanimation.gif",
+    "coverUrl": "/extracted/Umbrella%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "unrap-bootanimation",
+    "folderName": "Unrap bootanimation",
+    "name": "Unrap",
+    "width": 900,
+    "height": 720,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 1,
+        "pause": 0,
+        "folder": "part0"
+      },
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part1"
+      }
+    ],
+    "sizeBytes": 7210728,
+    "sizeFormatted": "6.88 MB",
+    "zipName": "Unrap bootanimation.zip",
+    "zipUrl": "/source-zips/Unrap%20bootanimation.zip",
+    "gifUrl": "/previews/Unrap%20bootanimation.gif",
+    "coverUrl": "/extracted/Unrap%20bootanimation/part0/000.png"
+  },
+  {
+    "id": "watch-dogs-bootanimation",
+    "folderName": "Watch Dogs bootanimation",
+    "name": "Watch Dogs",
+    "width": 700,
+    "height": 1050,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 536867,
+    "sizeFormatted": "524.28 KB",
+    "zipName": "Watch Dogs bootanimation.zip",
+    "zipUrl": "/source-zips/Watch%20Dogs%20bootanimation.zip",
+    "gifUrl": "/previews/Watch%20Dogs%20bootanimation.gif",
+    "coverUrl": "/extracted/Watch%20Dogs%20bootanimation/part0/frame_00_delay-0.05s.png"
+  },
+  {
+    "id": "westworld-bootanimation",
+    "folderName": "Westworld bootanimation",
+    "name": "Westworld",
+    "width": 800,
+    "height": 600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3730914,
+    "sizeFormatted": "3.56 MB",
+    "zipName": "Westworld bootanimation.zip",
+    "zipUrl": "/source-zips/Westworld%20bootanimation.zip",
+    "gifUrl": "/previews/Westworld%20bootanimation.gif",
+    "coverUrl": "/extracted/Westworld%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "yin-yang-bootanimation",
+    "folderName": "Yin Yang bootanimation",
+    "name": "Yin Yang",
+    "width": 400,
+    "height": 400,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3778475,
+    "sizeFormatted": "3.6 MB",
+    "zipName": "Yin Yang bootanimation.zip",
+    "zipUrl": "/source-zips/Yin%20Yang%20bootanimation.zip",
+    "gifUrl": "/previews/Yin%20Yang%20bootanimation.gif",
+    "coverUrl": "/extracted/Yin%20Yang%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "zelda-bootanimation",
+    "folderName": "Zelda bootanimation",
+    "name": "Zelda",
+    "width": 840,
+    "height": 840,
+    "fps": 35,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 80,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 258695,
+    "sizeFormatted": "252.63 KB",
+    "zipName": "Zelda bootanimation.zip",
+    "zipUrl": "/source-zips/Zelda%20bootanimation.zip",
+    "gifUrl": "/previews/Zelda%20bootanimation.gif",
+    "coverUrl": "/extracted/Zelda%20bootanimation/part0/frame_00_delay-0.03s.png"
+  }
+]

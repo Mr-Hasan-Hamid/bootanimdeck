@@ -1,42 +1,215 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #0a0a0a;
+    --accent-cyan: #00dfd8;
+    --accent-purple: #7928ca;
+    --accent-pink: #ff0080;
+  }
+
+  .dark {
+    --background: #000000;
+    --foreground: #fafafa;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans), system-ui, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 99px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #222222;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #333333;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Text & Accent Gradient effects */
+.text-gradient {
+  background: linear-gradient(135deg, var(--foreground) 30%, rgba(128, 128, 128, 0.8) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.text-gradient-purple {
+  background: linear-gradient(135deg, #7928ca 0%, #ff0080 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* Custom layout overrides */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border-color: rgba(0, 0, 0, 0.06);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.dark .glass-panel {
+  background: rgba(10, 10, 10, 0.75);
+  backdrop-filter: blur(12px);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Card Grid Layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  width: 100%;
+}
+
+/* Custom Card hover animations */
+.anim-card {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.anim-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.02) inset;
+}
+
+.dark .anim-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 1px 1px rgba(255, 255, 255, 0.08) inset;
+}
+
+.anim-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s;
+  box-shadow: 0 0 20px rgba(0, 223, 216, 0.05);
+  pointer-events: none;
+}
+
+.dark .anim-card::after {
+  box-shadow: 0 0 20px rgba(0, 223, 216, 0.08);
+}
+
+.anim-card:hover::after {
+  opacity: 1;
+}
+
+/* Seamless Looping Marquee Animations */
+@keyframes custom-marquee-left {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(calc(-100% - 0.5rem), 0, 0); } /* Matches gap-2 (0.5rem) */
+}
+
+@keyframes custom-marquee-right {
+  0% { transform: translate3d(calc(-100% - 0.5rem), 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.custom-marquee-left {
+  animation: custom-marquee-left var(--marquee-duration, 30s) linear infinite !important;
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform: translate3d(0, 0, 0);
+}
+
+.custom-marquee-right {
+  animation: custom-marquee-right var(--marquee-duration, 30s) linear infinite !important;
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform: translate3d(0, 0, 0);
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Hide scrollbar utility */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Slide in from right for Side Drawer */
+@keyframes slideInFromRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.slide-in-right {
+  animation: slideInFromRight 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* 10x Performance Optimizations */
+.hero-section {
+  content-visibility: auto;
+  contain-intrinsic-size: 500px;
+}
+
+.marquee-track:hover .custom-marquee-left,
+.marquee-track:hover .custom-marquee-right {
+  animation-play-state: paused !important;
+}
+
+/* Shimmer Skeleton Loading Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
   }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    #f3f4f6 25%,
+    #e5e7eb 50%,
+    #f3f4f6 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.dark .skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    #171717 25%,
+    #262626 50%,
+    #171717 75%
+  );
+  background-size: 200% 100%;
 }
