@@ -4,29 +4,32 @@ We love contributions! Whether you want to add a new boot animation preset, opti
 
 ## How to Add a Presetted Boot Animation
 
-To add your own boot animation to the showcase gallery:
+Adding a new boot animation is simple. Contributors do **not** need access to the production Cloudflare R2 bucket; you will build and test everything locally, and the project maintainer will handle the final CDN sync.
 
-1. **Upload source files**:
-   - Save your `.zip` archive inside `source-zips/`.
-   - The archive must have images inside parts folders (`part0`, `part1`, etc.) and a standard `desc.txt` configuration at the root.
+### Step 1: Extract & Generate Previews
+1. Save your custom Android boot animation `.zip` archive inside `source-zips/` (located in the project root directory).
+   * Ensure it contains standard part folders (`part0`, `part1`, etc.) and a valid `desc.txt` configuration at the root.
+2. Extract the animation frames and generate the web-optimized GIF preview by running the local script from the project root:
+   ```bash
+   bash gallery.sh
+   ```
+   * This automatically processes the images, creates the preview GIF, and appends a new entry to your local database index.
 
-2. **Generate previews and extracted frames**:
-   - Run the local automation script in the repository root:
-     ```bash
-     bash gallery.sh
-     ```
-   - This script automatically extracts image frames, generates a web-optimized GIF preview, and updates the local data templates.
+### Step 2: Test Locally
+1. Run the local Next.js development server:
+   ```bash
+   cd web
+   npm run dev
+   ```
+2. Open `http://localhost:3000` in your browser. The app will detect that R2 is not configured locally, fallback to reading your local filesystem folders, and let you test the animation playback simulator locally.
 
-3. **Upload new assets to R2**:
-   - Set up your rclone config and execute the sync pipeline:
-     ```bash
-     bash scripts/upload-to-r2.sh https://pub-yourbucketid.r2.dev
-     ```
-   - This will upload the new extracted frames and GIF preview to Cloudflare R2 and update `/src/data/animations.json` with the new CDN paths.
-
-4. **Submit a Pull Request**:
-   - Stage your modified `src/data/animations.json` preset details and push them to your fork.
-   - Open a PR describing your theme.
+### Step 3: Submit Your Pull Request (PR)
+1. Commit the following files to your fork and submit a PR:
+   * The new `.zip` file in `source-zips/`
+   * The generated preview `.gif` file in `previews/`
+   * The generated frames folder in `extracted/`
+   * The updated `web/src/data/animations.json` entry
+2. The project maintainer will verify your PR locally. If accepted, they will run `bash scripts/upload-to-r2.sh` to sync the static assets to the official Cloudflare R2 bucket and merge the changes into production!
 
 ## Code Contribution Workflow
 
