@@ -150,11 +150,11 @@ R2_URL="${R2_URL%/}"  # strip trailing slash
 
 DATA_FILE="$SCRIPT_DIR/../src/data/animations.json"
 
-# Replace local paths with R2 URLs using sed
+# Replace local paths with R2 URLs using sed (idempotent with opening quote)
 sed -i \
-  -e "s|/previews/|${R2_URL}/previews/|g" \
-  -e "s|/source-zips/|${R2_URL}/source-zips/|g" \
-  -e "s|/extracted/|${R2_URL}/extracted/|g" \
+  -e "s|\"/previews/|\"${R2_URL}/previews/|g" \
+  -e "s|\"/source-zips/|\"${R2_URL}/source-zips/|g" \
+  -e "s|\"/extracted/|\"${R2_URL}/extracted/|g" \
   "$DATA_FILE"
 
 echo "   ✅ animations.json updated with R2 URLs"
