@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "BootForge — Android Boot Animation Studio & Gallery",
   description: "Explore 220+ Android boot animations in high-quality previews. Parse desc.txt, adjust speed and loop parameters, download root-ready ZIPs, or create custom boot animations from video — all client-side.",
   keywords: ["Android", "Boot Animation", "Gallery", "Custom ROMs", "desc.txt", "GIF Preview", "Android Customization", "BootForge", "flashable zip"],
-  authors: [{ name: "BootForge" }],
+  authors: [{ name: "Mr Hasan Hamid", url: "https://19-hasan.vercel.app" }],
   manifest: "/manifest.json",
   openGraph: {
     title: "BootForge — Android Boot Animation Studio & Gallery",
@@ -225,14 +225,27 @@ export default function RootLayout({
             </div>
 
             {/* Bottom Row */}
-            <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] font-mono text-neutral-400 dark:text-neutral-600">
-              <div>
+            <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] font-mono text-neutral-400 dark:text-neutral-600 w-full border-t border-neutral-200/40 dark:border-neutral-900/50 mt-4">
+              <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
                 <span>© {new Date().getFullYear()} BootForge. Licensed under MIT.</span>
+                <span className="hidden sm:inline">•</span>
+                <span>
+                  Built by{" "}
+                  <a href="https://19-hasan.vercel.app" target="_blank" rel="noreferrer" className="text-neutral-500 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
+                    Mr Hasan Hamid
+                  </a>
+                </span>
               </div>
-              <div className="flex items-center gap-4">
-                <span>100% CLIENT-SIDE PACKAGING</span>
+              <div className="flex items-center gap-4 flex-wrap justify-center">
+                <a href="https://github.com/Mr-Hasan-Hamid" target="_blank" rel="noreferrer" className="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
+                  GITHUB
+                </a>
                 <span>•</span>
-                <a href="https://github.com/Mr-Hasan-Hamid/bootforge" target="_blank" rel="noreferrer" className="hover:text-cyan-550 dark:hover:text-cyan-400 transition-colors duration-200">
+                <a href="https://instagram.com/_19.hasan_" target="_blank" rel="noreferrer" className="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
+                  INSTAGRAM
+                </a>
+                <span>•</span>
+                <a href="https://github.com/Mr-Hasan-Hamid/bootforge" target="_blank" rel="noreferrer" className="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
                   SOURCE CODE
                 </a>
               </div>
