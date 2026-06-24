@@ -2,6 +2,10 @@
 
 > The ultimate workspace & asset directory for Android system boot animations.
 
+<div align="center">
+  <img src="public/screenshot.png" alt="BootForge Platform Screenshot" width="800" style="border-radius: 12px; border: 1px solid rgba(120,120,120,0.2); box-shadow: 0 4px 30px rgba(0,0,0,0.2);" />
+</div>
+
 BootForge is a premium, open-source Next.js application designed for Android theme developers and custom ROM enthusiasts. It allows you to browse 220+ boot screen presets, customize loop dynamics, simulate playback frame-by-frame, and convert MP4/WebM videos directly into flashable, root-ready installer ZIPs client-side.
 
 ---
@@ -13,6 +17,18 @@ BootForge is a premium, open-source Next.js application designed for Android the
 - **Video to Boot Animation**: Convert arbitrary video formats to Android boot animation ZIPs containing `desc.txt` configuration entirely client-side.
 - **WASM Compiler**: Create Android installer ZIPs dynamically without any remote server rendering.
 - **PWA Capabilities**: Fully installable as a progressive web app with progressive offline capabilities.
+
+### 🎬 Animation Showcase (10 Featured Presets)
+
+Here is a quick look at 10 featured Android boot animation presets available in the gallery:
+
+| | |
+| :---: | :---: |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Abstract%20Ring%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Abstract Ring** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Abstract%20Shape%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Abstract Shape** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Abstract%20Sphere%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Abstract Sphere** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Admiral%202%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Admiral 2** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Admiral%203%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Admiral 3** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Admiral%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Admiral** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Alienware%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Alienware** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Android%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Android** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Angular%202%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Angular 2** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Angular%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Angular** |
 
 ---
 
