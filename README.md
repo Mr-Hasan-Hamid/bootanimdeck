@@ -1,4 +1,4 @@
-# 🛸 BootForge - The Custom Android Boot Collection & Library
+# 🛸 BootForge - The Custom Android Boot Collection 
 
 > The ultimate workspace & asset directory for Android system boot animations.
 
