@@ -86,6 +86,9 @@ export default function RootLayout({
                   <span className="inline-block w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
                   Video to Bootanimation
                 </Link>
+                <Link href="/bulk-downloader" className="text-xs font-medium text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
+                  Bulk Downloader
+                </Link>
               </nav>
             </div>
             
@@ -168,8 +171,13 @@ export default function RootLayout({
                     </Link>
                   </li>
                   <li>
-                    <Link href="/video-to-bootanimation" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
+                    <Link href="/video-to-bootanimation" className="text-neutral-600 dark:text-neutral-405 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
                       Video Converter
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/bulk-downloader" className="text-neutral-600 dark:text-neutral-405 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
+                      Bulk Downloader
                     </Link>
                   </li>
                 </ul>
