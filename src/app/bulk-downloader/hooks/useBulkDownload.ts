@@ -49,13 +49,15 @@ export function useBulkDownload() {
 
         try {
           setStatusText(`Fetching: ${item.name} (${completedCount + 1}/${totalCount})`);
-          
-          const response = await fetch(item.zipUrl, { signal });
+
+          // Fetch using our same-origin API proxy to avoid browser CORS blocks
+          const proxyUrl = `/api/download?url=${encodeURIComponent(item.zipUrl)}`;
+          const response = await fetch(proxyUrl, { signal });
           if (!response.ok) throw new Error(`HTTP status ${response.status}`);
-          
+
           const arrayBuffer = await response.arrayBuffer();
           zip.file(item.zipName, arrayBuffer);
-          
+
           completedCount++;
           setProgressPercent(Math.round((completedCount / totalCount) * 80));
         } catch (error) {
@@ -81,22 +83,20 @@ export function useBulkDownload() {
       }
 
       setDownloadErrors(errorsList);
-
-      setStatusText("Compiling master ZIP archive... this might take a moment depending on package size.");
-      
-      const content = await zip.generateAsync(
-        { type: "blob" },
-        (metadata) => {
-          if (!signal.aborted) {
-            setProgressPercent(80 + Math.round(metadata.percent * 0.2));
-          }
-        }
+      setStatusText(
+        "Compiling master ZIP archive... this might take a moment depending on package size."
       );
+
+      const content = await zip.generateAsync({ type: "blob" }, (metadata) => {
+        if (!signal.aborted) {
+          setProgressPercent(80 + Math.round(metadata.percent * 0.2));
+        }
+      });
 
       if (signal.aborted) return;
 
       setStatusText("Saving package archive to downloads...");
-      
+
       const link = document.createElement("a");
       link.href = URL.createObjectURL(content);
       link.download = `bootanimdeck-package-${Date.now()}.zip`;
@@ -105,8 +105,8 @@ export function useBulkDownload() {
       document.body.removeChild(link);
 
       setStatusText(
-        errorsList.length > 0 
-          ? `Package saved! (${totalCount - errorsList.length} of ${totalCount} successful. Click Clear to restart.)` 
+        errorsList.length > 0
+          ? `Package saved! (${totalCount - errorsList.length} of ${totalCount} successful. Click Clear to restart.)`
           : "🎉 All animations compiled and saved successfully!"
       );
     } catch (error) {
@@ -132,6 +132,6 @@ export function useBulkDownload() {
     downloadErrors,
     handleDownloadBulk,
     handleCancelDownload,
-    setDownloadErrors
+    setDownloadErrors,
   };
 }

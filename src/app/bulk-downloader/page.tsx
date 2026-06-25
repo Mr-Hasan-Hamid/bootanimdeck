@@ -8,6 +8,7 @@ import { BulkStatusBar } from "./components/BulkStatusBar";
 import { BulkAnimationCard } from "./components/BulkAnimationCard";
 import { BulkDownloaderHeader } from "./components/BulkDownloaderHeader";
 import { SelectionControls } from "./components/SelectionControls";
+import { ScrollNavigator } from "./components/ScrollNavigator";
 import { AnimationItem } from "@/types/animation";
 import { categorise } from "@/utils/categorise";
 
@@ -106,7 +107,7 @@ export default function BulkDownloaderPage() {
     <div className="fade-in bg-white dark:bg-black text-black dark:text-white min-h-screen">
       <BulkDownloaderHeader />
 
-      <section className="mx-auto max-w-7xl px-6 py-10 pb-36">
+      <section className="mx-auto max-w-7xl px-6 py-10 pb-36 font-mono">
         <div className="flex flex-col md:flex-row gap-4 mb-8 justify-between items-stretch md:items-center">
           <div className="relative flex-grow max-w-md">
             <input
@@ -114,7 +115,7 @@ export default function BulkDownloaderPage() {
               placeholder="Filter by name or resolution..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full bg-neutral-55 dark:bg-neutral-900 border border-neutral-250 dark:border-neutral-800 rounded-xl px-4 py-2.5 text-xs text-neutral-800 dark:text-white placeholder-neutral-400 dark:placeholder-neutral-500 focus:outline-none focus:border-cyan-500 dark:focus:border-cyan-600 transition-colors"
+              className="w-full bg-neutral-55 dark:bg-neutral-900 border border-neutral-250 dark:border-neutral-800 rounded-xl px-4 py-2.5 text-xs text-neutral-850 dark:text-white placeholder-neutral-400 dark:placeholder-neutral-500 focus:outline-none focus:border-cyan-500 dark:focus:border-cyan-600 transition-colors"
             />
             {search && (
               <button
@@ -188,6 +189,8 @@ export default function BulkDownloaderPage() {
           onDownload={() => handleDownloadBulk(selectedAnimations)}
         />
       )}
+
+      <ScrollNavigator />
     </div>
   );
 }
