@@ -49,12 +49,16 @@ function HoverPreview({
   objectCover?: boolean; 
 }) {
   const [isHovered, setIsHovered] = useState(false);
-  const [gifLoaded, setGifLoaded] = useState(false);
+  const [mediaLoaded, setMediaLoaded] = useState(false);
+  const [useFallback, setUseFallback] = useState(false);
 
-  // Reset load status when hover exits to release memory and allow refetch/re-fade
+  const webmUrl = gifUrl ? gifUrl.replace(/\.gif$/, '.webm') : null;
+
+  // Reset media state when hover exits
   useEffect(() => {
     if (!isHovered) {
-      setGifLoaded(false);
+      setMediaLoaded(false);
+      setUseFallback(false);
     }
   }, [isHovered]);
 
@@ -64,7 +68,7 @@ function HoverPreview({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* 1. Static Cover Image (always visible until GIF is hovered and loaded) */}
+      {/* 1. Static Cover Image (visible until hover media begins playing) */}
       {coverUrl && (
         /* eslint-disable-next-line @next/next/no-img-element */
         <img
@@ -73,25 +77,41 @@ function HoverPreview({
           loading="lazy"
           className={`absolute inset-0 w-full h-full transition-opacity duration-300 ${
             objectCover ? "object-cover" : "object-contain"
-          } ${isHovered && gifLoaded ? "opacity-0" : "opacity-100"}`}
+          } ${isHovered && mediaLoaded ? "opacity-0" : "opacity-100"}`}
         />
       )}
 
-      {/* 2. Animated GIF Previews (ONLY rendered and fetched when hovered) */}
-      {isHovered && gifUrl && (
+      {/* 2. WebM Video Preview Loop (Progressive Streaming) */}
+      {isHovered && webmUrl && !useFallback && (
+        <video
+          src={webmUrl}
+          loop
+          muted
+          playsInline
+          autoPlay
+          onPlay={() => setMediaLoaded(true)}
+          onError={() => setUseFallback(true)}
+          className={`absolute inset-0 w-full h-full object-contain transition-all duration-300 group-hover:scale-102 ${
+            mediaLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          }`}
+        />
+      )}
+
+      {/* 3. Legacy GIF Preview (Fallback in case WebM doesn't exist on CDN) */}
+      {isHovered && gifUrl && useFallback && (
         /* eslint-disable-next-line @next/next/no-img-element */
         <img
           src={gifUrl}
           alt={`${alt} preview`}
-          onLoad={() => setGifLoaded(true)}
+          onLoad={() => setMediaLoaded(true)}
           className={`absolute inset-0 w-full h-full transition-all duration-300 group-hover:scale-102 ${
             objectCover ? "object-cover" : "object-contain"
-          } ${gifLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+          } ${mediaLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
         />
       )}
 
-      {/* 3. Loader spinner on hover while GIF downloads */}
-      {isHovered && !gifLoaded && (
+      {/* 4. Loader spinner on hover while media fetches */}
+      {isHovered && !mediaLoaded && (
         <div className="absolute top-2.5 right-2.5 z-10 flex h-5 w-5 items-center justify-center rounded-full bg-black/60 backdrop-blur border border-neutral-800">
           <svg className="animate-spin h-3 w-3 text-cyan-400" fill="none" viewBox="0 0 24 24">
             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
@@ -104,10 +124,15 @@ function HoverPreview({
 }
 
 function DrawerPreview({ gifUrl, coverUrl, alt }: { gifUrl: string; coverUrl: string; alt: string }) {
-  const [gifLoaded, setGifLoaded] = useState(false);
+  const [mediaLoaded, setMediaLoaded] = useState(false);
+  const [useFallback, setUseFallback] = useState(false);
 
+  const webmUrl = gifUrl ? gifUrl.replace(/\.gif$/, '.webm') : null;
+
+  // Reset states on animation change
   useEffect(() => {
-    setGifLoaded(false);
+    setMediaLoaded(false);
+    setUseFallback(false);
   }, [gifUrl]);
 
   return (
@@ -119,24 +144,42 @@ function DrawerPreview({ gifUrl, coverUrl, alt }: { gifUrl: string; coverUrl: st
           src={coverUrl} 
           alt={alt} 
           className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-300 ${
-            gifLoaded ? "opacity-0" : "opacity-100"
+            mediaLoaded ? "opacity-0" : "opacity-100"
           }`}
         />
       )}
 
-      {/* Animated GIF */}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={gifUrl}
-        alt={alt}
-        onLoad={() => setGifLoaded(true)}
-        className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-300 ${
-          gifLoaded ? "opacity-100" : "opacity-0"
-        }`}
-      />
+      {/* WebM Video Player */}
+      {webmUrl && !useFallback && (
+        <video
+          src={webmUrl}
+          loop
+          muted
+          playsInline
+          autoPlay
+          onPlay={() => setMediaLoaded(true)}
+          onError={() => setUseFallback(true)}
+          className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-300 ${
+            mediaLoaded ? "opacity-100" : "opacity-0"
+          }`}
+        />
+      )}
+
+      {/* Fallback GIF Player */}
+      {(!webmUrl || useFallback) && (
+        /* eslint-disable-next-line @next/next/no-img-element */
+        <img
+          src={gifUrl}
+          alt={alt}
+          onLoad={() => setMediaLoaded(true)}
+          className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-300 ${
+            mediaLoaded ? "opacity-100" : "opacity-0"
+          }`}
+        />
+      )}
 
       {/* Loader Spinner Overlay */}
-      {!gifLoaded && (
+      {!mediaLoaded && (
         <div className="absolute inset-0 flex items-center justify-center bg-black/25 backdrop-blur-[1px]">
           <div className="flex flex-col items-center gap-2.5">
             <svg className="animate-spin h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24">
