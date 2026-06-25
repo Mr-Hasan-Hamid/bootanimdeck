@@ -481,7 +481,17 @@ export default function GalleryPage() {
               onClick={() => handleSelectAnimation(item)}
               className="w-[calc(20vw-10px)] min-w-[120px] aspect-square shrink-0 bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden relative group cursor-pointer hover:scale-[1.02] transition-transform duration-200 shadow-sm"
             >
-              <HoverPreview gifUrl={item.gifUrl} coverUrl={item.coverUrl} alt={item.name} objectCover={true} />
+              {item.coverUrl ? (
+                /* eslint-disable-next-line @next/next/no-img-element */
+                <img
+                  src={item.coverUrl}
+                  alt={item.name}
+                  loading="lazy"
+                  className="w-full h-full object-cover transition-all duration-300 group-hover:scale-102"
+                />
+              ) : (
+                <div className="w-full h-full bg-neutral-250 dark:bg-neutral-900" />
+              )}
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2 font-sans pointer-events-none">
                 <span className="text-[9px] font-semibold text-white font-mono line-clamp-1">{item.name}</span>
               </div>
@@ -501,7 +511,17 @@ export default function GalleryPage() {
               onClick={() => handleSelectAnimation(item)}
               className="w-[calc(20vw-10px)] min-w-[120px] aspect-square shrink-0 bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden relative group cursor-pointer hover:scale-[1.02] transition-transform duration-200 shadow-sm"
             >
-              <HoverPreview gifUrl={item.gifUrl} coverUrl={item.coverUrl} alt={item.name} objectCover={true} />
+              {item.coverUrl ? (
+                /* eslint-disable-next-line @next/next/no-img-element */
+                <img
+                  src={item.coverUrl}
+                  alt={item.name}
+                  loading="lazy"
+                  className="w-full h-full object-cover transition-all duration-300 group-hover:scale-102"
+                />
+              ) : (
+                <div className="w-full h-full bg-neutral-250 dark:bg-neutral-900" />
+              )}
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2 font-sans pointer-events-none">
                 <span className="text-[9px] font-semibold text-white font-mono line-clamp-1">{item.name}</span>
               </div>

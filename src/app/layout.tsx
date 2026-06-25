@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
 import AnimatedThemeToggler from "@/components/AnimatedThemeToggler";
+import PWARegister from "@/components/PWARegister";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -58,6 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} font-sans bg-white dark:bg-black text-black dark:text-white transition-colors duration-300`}>
+        <PWARegister />
         {/* Vercel Header */}
         <header className="glass-panel sticky top-0 z-50 w-full border-b border-neutral-200 dark:border-neutral-800 bg-white/80 dark:bg-black/80 backdrop-blur-md">
           <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
