@@ -49,67 +49,100 @@ function HoverPreview({
   objectCover?: boolean; 
 }) {
   const [isHovered, setIsHovered] = useState(false);
-  const [imageLoaded, setImageLoaded] = useState(false);
-  const activeSrc = isHovered && gifUrl ? gifUrl : (coverUrl || gifUrl || "");
-
-  useEffect(() => {
-    setImageLoaded(false);
-  }, [activeSrc]);
+  const [gifLoaded, setGifLoaded] = useState(false);
 
   return (
     <div 
-      className="w-full h-full relative overflow-hidden bg-transparent"
+      className="w-full h-full relative overflow-hidden bg-black"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {!imageLoaded && (
-        <div className="absolute inset-0 skeleton-shimmer z-10" />
+      {/* 1. Static Cover Image (visible until GIF is hovered and loaded) */}
+      {coverUrl && (
+        /* eslint-disable-next-line @next/next/no-img-element */
+        <img
+          src={coverUrl}
+          alt={alt}
+          loading="lazy"
+          className={`absolute inset-0 w-full h-full transition-opacity duration-300 ${
+            objectCover ? "object-cover" : "object-contain"
+          } ${isHovered && gifLoaded ? "opacity-0" : "opacity-100"}`}
+        />
       )}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={activeSrc}
-        alt={alt}
-        loading="lazy"
-        onLoad={() => setImageLoaded(true)}
-        className={`w-full h-full transition-all duration-300 group-hover:scale-102 ${
-          objectCover ? "object-cover" : "object-contain"
-        } ${imageLoaded ? "opacity-100" : "opacity-0"}`}
-      />
+
+      {/* 2. Animated GIF Previews (fades in on hover) */}
+      {gifUrl && (
+        /* eslint-disable-next-line @next/next/no-img-element */
+        <img
+          src={gifUrl}
+          alt={`${alt} preview`}
+          loading="lazy"
+          onLoad={() => setGifLoaded(true)}
+          className={`absolute inset-0 w-full h-full transition-all duration-300 group-hover:scale-102 ${
+            objectCover ? "object-cover" : "object-contain"
+          } ${isHovered && gifLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+        />
+      )}
+
+      {/* 3. Loader spinner on hover while GIF downloads */}
+      {isHovered && !gifLoaded && (
+        <div className="absolute top-2.5 right-2.5 z-10 flex h-5 w-5 items-center justify-center rounded-full bg-black/60 backdrop-blur border border-neutral-800">
+          <svg className="animate-spin h-3 w-3 text-cyan-400" fill="none" viewBox="0 0 24 24">
+            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+          </svg>
+        </div>
+      )}
     </div>
   );
 }
 
 function DrawerPreview({ gifUrl, coverUrl, alt }: { gifUrl: string; coverUrl: string; alt: string }) {
-  const [loaded, setLoaded] = useState(false);
+  const [gifLoaded, setGifLoaded] = useState(false);
 
   useEffect(() => {
-    setLoaded(false);
+    setGifLoaded(false);
   }, [gifUrl]);
 
   return (
-    <div className="w-full h-full relative overflow-hidden bg-transparent">
-      {!loaded && (
-        <div className="absolute inset-0 z-10">
-          <div className="absolute inset-0 skeleton-shimmer" />
-          {coverUrl && (
-            /* eslint-disable-next-line @next/next/no-img-element */
-            <img 
-              src={coverUrl} 
-              alt={alt} 
-              className="w-full h-full object-contain blur-sm opacity-50"
-            />
-          )}
-        </div>
+    <div className="w-full h-full relative overflow-hidden bg-black flex items-center justify-center">
+      {/* Static Cover */}
+      {coverUrl && (
+        /* eslint-disable-next-line @next/next/no-img-element */
+        <img 
+          src={coverUrl} 
+          alt={alt} 
+          className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-300 ${
+            gifLoaded ? "opacity-0" : "opacity-100"
+          }`}
+        />
       )}
+
+      {/* Animated GIF */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={gifUrl}
         alt={alt}
-        onLoad={() => setLoaded(true)}
-        className={`w-full h-full object-contain ${
-          loaded ? "opacity-100" : "opacity-0"
-        } transition-opacity duration-300`}
+        onLoad={() => setGifLoaded(true)}
+        className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-300 ${
+          gifLoaded ? "opacity-100" : "opacity-0"
+        }`}
       />
+
+      {/* Loader Spinner Overlay */}
+      {!gifLoaded && (
+        <div className="absolute inset-0 flex items-center justify-center bg-black/25 backdrop-blur-[1px]">
+          <div className="flex flex-col items-center gap-2.5">
+            <svg className="animate-spin h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24">
+              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+            </svg>
+            <span className="text-[9px] font-mono text-cyan-400 uppercase tracking-widest font-bold animate-pulse">
+              Buffering Preview...
+            </span>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
