@@ -104,22 +104,6 @@ const nextConfig = {
     ];
   },
 
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'bootforge.vercel.app',
-          },
-        ],
-        destination: 'https://bootanimdeck.vercel.app/:path*',
-        permanent: true,
-      },
-    ];
-  },
-
   // Compress responses
   compress: true,
 
