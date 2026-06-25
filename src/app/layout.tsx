@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Link from "next/link";
-import AnimatedThemeToggler from "@/components/AnimatedThemeToggler";
 import PWARegister from "@/components/PWARegister";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -60,209 +60,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} font-sans bg-white dark:bg-black text-black dark:text-white transition-colors duration-300`}>
         <PWARegister />
-        {/* Vercel Header */}
-        <header className="glass-panel sticky top-0 z-50 w-full border-b border-neutral-200 dark:border-neutral-800 bg-white/80 dark:bg-black/80 backdrop-blur-md">
-          <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-            <div className="flex items-center gap-6">
-              <Link href="/" className="flex items-center gap-2.5 hover:opacity-90 transition-opacity group">
-                {/* Stacked Layers Logo */}
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-cyan-500 dark:text-cyan-400 group-hover:scale-105 transition-transform duration-200">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                </svg>
-                <span className="text-sm font-black tracking-tight font-sans text-neutral-900 dark:text-white flex items-center">
-                  <span>BootAnim</span>
-                  <span className="text-cyan-500 dark:text-cyan-400">Deck</span>
-                </span>
-              </Link>
-              <div className="hidden md:block h-4 w-px bg-neutral-300 dark:bg-neutral-800" />
-              <nav className="hidden md:flex items-center gap-5">
-                <Link href="/" className="text-xs font-medium text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
-                  Gallery
-                </Link>
-                <Link href="/studio" className="text-xs font-medium text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
-                  Studio
-                </Link>
-                <Link href="/video-to-bootanimation" className="text-xs font-medium text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors flex items-center gap-1.5">
-                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
-                  Video to Bootanimation
-                </Link>
-                <Link href="/bulk-downloader" className="text-xs font-medium text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
-                  Bulk Downloader
-                </Link>
-              </nav>
-            </div>
-            
-            <div className="flex items-center gap-4">
-              <a 
-                href="https://github.com/Mr-Hasan-Hamid/bootanimdeck" 
-                target="_blank" 
-                rel="noreferrer" 
-                className="text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors flex items-center justify-center"
-                aria-label="GitHub Repository"
-              >
-                <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
-                </svg>
-              </a>
-              <AnimatedThemeToggler />
-              <Link href="/studio" className="bg-black dark:bg-white text-white dark:text-black hover:bg-neutral-800 dark:hover:bg-neutral-100 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all shadow-sm">
-                Launch Studio
-              </Link>
-            </div>
-          </div>
-        </header>
-
+        <Header />
+        
         {/* Page Content */}
         <main className="min-h-screen">
           {children}
         </main>
 
-        {/* Premium Developer Footer */}
-        <footer className="w-full bg-neutral-50 dark:bg-black/90 border-t border-neutral-200/60 dark:border-neutral-900 py-16 px-6 font-sans relative overflow-hidden">
-          {/* Subtle top glow grid and gradients */}
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-px bg-gradient-to-r from-transparent via-cyan-500/40 to-transparent" />
-          <div className="absolute top-0 right-1/4 -z-10 w-96 h-96 bg-cyan-500/5 dark:bg-cyan-500/10 rounded-full blur-[100px] pointer-events-none" />
-          <div className="absolute bottom-0 left-1/4 -z-10 w-96 h-96 bg-purple-500/5 dark:bg-purple-500/5 rounded-full blur-[100px] pointer-events-none" />
-          
-          <div className="mx-auto max-w-7xl relative z-10">
-            {/* Grid uses 2 cols on mobile for Workspace/Resources to sit side-by-side, and 12 cols on md+ */}
-            <div className="grid grid-cols-2 md:grid-cols-12 gap-10 md:gap-8 pb-12 border-b border-neutral-200/60 dark:border-neutral-900">
-              
-              {/* Col 1: Brand & Live Status (Full width on mobile/tablet, 4 cols on md+) */}
-              <div className="col-span-2 md:col-span-4 space-y-4">
-                <div className="flex items-center gap-2.5 group">
-                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-cyan-500 dark:text-cyan-400 group-hover:rotate-12 transition-transform duration-300">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                  </svg>
-                  <span className="text-sm font-black tracking-tight text-neutral-950 dark:text-white transition-colors duration-200 group-hover:text-cyan-500 dark:group-hover:text-cyan-450">
-                    <span>BootAnim</span>
-                    <span className="text-cyan-500 dark:text-cyan-400">Deck</span>
-                  </span>
-                </div>
-                
-                <p className="text-xs text-neutral-500 dark:text-neutral-400 leading-relaxed max-w-xs">
-                  Ultimate developer workspace and client-side packaging toolkit for custom Android ROM boot animation sequences.
-                </p>
-
-                {/* Real-time Status Badge */}
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-100/60 dark:bg-neutral-900/60 border border-neutral-200/60 dark:border-neutral-800/80 font-mono text-[9px] text-neutral-600 dark:text-neutral-400 backdrop-blur-sm">
-                  <span className="relative flex h-1.5 w-1.5">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-450 opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500"></span>
-                  </span>
-                  <span>NODE: CLIENT_ACTIVE</span>
-                </div>
-              </div>
-
-              {/* Col 2: Navigation Links (1 col on mobile, 2 cols on md+) */}
-              <div className="col-span-1 md:col-span-2 space-y-3">
-                <h4 className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 dark:text-neutral-500 font-mono">
-                  Workspace
-                </h4>
-                <ul className="space-y-2.5 text-xs">
-                  <li>
-                    <Link href="/" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
-                      Presetted Gallery
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/studio" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
-                      Interactive Studio
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/video-to-bootanimation" className="text-neutral-600 dark:text-neutral-405 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
-                      Video Converter
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/bulk-downloader" className="text-neutral-600 dark:text-neutral-405 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
-                      Bulk Downloader
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Col 3: Resources & Docs (1 col on mobile, 2 cols on md+) */}
-              <div className="col-span-1 md:col-span-2 space-y-3">
-                <h4 className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 dark:text-neutral-500 font-mono">
-                  Resources
-                </h4>
-                <ul className="space-y-2.5 text-xs">
-                  <li>
-                    <a href="https://github.com/Mr-Hasan-Hamid/bootanimdeck" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
-                      GitHub Repository
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://source.android.com/devices/bootloader/boot-animations" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
-                      AOSP Bootanim Docs
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/Mr-Hasan-Hamid/bootanimdeck/issues" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
-                      Report Bugs
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Col 4: Terminal System Monitor (Full width on mobile, 4 cols on md+) */}
-              <div className="col-span-2 md:col-span-4 space-y-3">
-                <h4 className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 dark:text-neutral-500 font-mono">
-                  System Monitor
-                </h4>
-                <div className="p-4 bg-neutral-100/80 dark:bg-neutral-950/80 border border-neutral-200/60 dark:border-neutral-900/80 rounded-xl font-mono text-[10px] space-y-2 text-neutral-500 dark:text-neutral-455 shadow-inner backdrop-blur-sm hover:border-cyan-500/30 dark:hover:border-cyan-500/20 transition-colors duration-300">
-                  <div className="flex justify-between">
-                    <span>SYS_RELEASE</span>
-                    <span className="text-neutral-800 dark:text-neutral-200 font-semibold">v1.1.0</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>PRESETS</span>
-                    <span className="text-neutral-800 dark:text-neutral-200 font-semibold">224 loaded</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>COMPILER</span>
-                    <span className="text-neutral-850 dark:text-neutral-200 font-semibold">client_wasm</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>ZIP_CORE</span>
-                    <span className="text-neutral-850 dark:text-neutral-200 font-semibold">jszip_v3</span>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            {/* Bottom Row */}
-            <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] font-mono text-neutral-400 dark:text-neutral-600 w-full border-t border-neutral-200/40 dark:border-neutral-900/50 mt-4">
-              <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
-                <span>© {new Date().getFullYear()} BootAnimDeck. Licensed under MIT.</span>
-                <span className="hidden sm:inline">•</span>
-                <span>
-                  Built by{" "}
-                  <a href="https://19-hasan.vercel.app" target="_blank" rel="noreferrer" className="text-neutral-500 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
-                    Mr Hasan Hamid
-                  </a>
-                </span>
-              </div>
-              <div className="flex items-center gap-4 flex-wrap justify-center">
-                <a href="https://github.com/Mr-Hasan-Hamid" target="_blank" rel="noreferrer" className="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
-                  GITHUB
-                </a>
-                <span>•</span>
-                <a href="https://instagram.com/_19.hasan_" target="_blank" rel="noreferrer" className="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
-                  INSTAGRAM
-                </a>
-                <span>•</span>
-                <a href="https://github.com/Mr-Hasan-Hamid/bootanimdeck" target="_blank" rel="noreferrer" className="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
-                  SOURCE CODE
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </footer>
+        <Footer />
       </body>
     </html>
   );
