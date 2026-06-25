@@ -51,13 +51,20 @@ function HoverPreview({
   const [isHovered, setIsHovered] = useState(false);
   const [gifLoaded, setGifLoaded] = useState(false);
 
+  // Reset load status when hover exits to release memory and allow refetch/re-fade
+  useEffect(() => {
+    if (!isHovered) {
+      setGifLoaded(false);
+    }
+  }, [isHovered]);
+
   return (
     <div 
       className="w-full h-full relative overflow-hidden bg-black"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* 1. Static Cover Image (visible until GIF is hovered and loaded) */}
+      {/* 1. Static Cover Image (always visible until GIF is hovered and loaded) */}
       {coverUrl && (
         /* eslint-disable-next-line @next/next/no-img-element */
         <img
@@ -70,17 +77,16 @@ function HoverPreview({
         />
       )}
 
-      {/* 2. Animated GIF Previews (fades in on hover) */}
-      {gifUrl && (
+      {/* 2. Animated GIF Previews (ONLY rendered and fetched when hovered) */}
+      {isHovered && gifUrl && (
         /* eslint-disable-next-line @next/next/no-img-element */
         <img
           src={gifUrl}
           alt={`${alt} preview`}
-          loading="lazy"
           onLoad={() => setGifLoaded(true)}
           className={`absolute inset-0 w-full h-full transition-all duration-300 group-hover:scale-102 ${
             objectCover ? "object-cover" : "object-contain"
-          } ${isHovered && gifLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+          } ${gifLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
         />
       )}
 
@@ -481,17 +487,7 @@ export default function GalleryPage() {
               onClick={() => handleSelectAnimation(item)}
               className="w-[calc(20vw-10px)] min-w-[120px] aspect-square shrink-0 bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden relative group cursor-pointer hover:scale-[1.02] transition-transform duration-200 shadow-sm"
             >
-              {item.coverUrl ? (
-                /* eslint-disable-next-line @next/next/no-img-element */
-                <img
-                  src={item.coverUrl}
-                  alt={item.name}
-                  loading="lazy"
-                  className="w-full h-full object-cover transition-all duration-300 group-hover:scale-102"
-                />
-              ) : (
-                <div className="w-full h-full bg-neutral-250 dark:bg-neutral-900" />
-              )}
+              <HoverPreview gifUrl={item.gifUrl} coverUrl={item.coverUrl} alt={item.name} objectCover={true} />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2 font-sans pointer-events-none">
                 <span className="text-[9px] font-semibold text-white font-mono line-clamp-1">{item.name}</span>
               </div>
@@ -511,17 +507,7 @@ export default function GalleryPage() {
               onClick={() => handleSelectAnimation(item)}
               className="w-[calc(20vw-10px)] min-w-[120px] aspect-square shrink-0 bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden relative group cursor-pointer hover:scale-[1.02] transition-transform duration-200 shadow-sm"
             >
-              {item.coverUrl ? (
-                /* eslint-disable-next-line @next/next/no-img-element */
-                <img
-                  src={item.coverUrl}
-                  alt={item.name}
-                  loading="lazy"
-                  className="w-full h-full object-cover transition-all duration-300 group-hover:scale-102"
-                />
-              ) : (
-                <div className="w-full h-full bg-neutral-250 dark:bg-neutral-900" />
-              )}
+              <HoverPreview gifUrl={item.gifUrl} coverUrl={item.coverUrl} alt={item.name} objectCover={true} />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2 font-sans pointer-events-none">
                 <span className="text-[9px] font-semibold text-white font-mono line-clamp-1">{item.name}</span>
               </div>

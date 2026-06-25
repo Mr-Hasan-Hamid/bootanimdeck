@@ -10,7 +10,7 @@ interface ShimmerButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 export function ShimmerButton({ active, children, className = "", ...props }: ShimmerButtonProps) {
   return (
     <button
-      className={`relative overflow-hidden px-4 py-2 rounded-full text-xs font-semibold whitespace-nowrap transition-all border outline-none select-none ${
+      className={`relative overflow-hidden px-4 py-2 rounded-full text-xs font-semibold whitespace-nowrap shrink-0 transition-all border outline-none select-none ${
         active
           ? "bg-black dark:bg-white text-white dark:text-black border-black dark:border-white shadow-md scale-102"
           : "bg-neutral-50 dark:bg-neutral-900 border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-450 hover:text-black dark:hover:text-white"
