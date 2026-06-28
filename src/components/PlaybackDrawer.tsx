@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { AnimationItem } from "@/types/animation";
 import { usePlaybackSimulator } from "@/hooks/usePlaybackSimulator";
 import { useMagiskPacker } from "@/hooks/useMagiskPacker";
+import { resizeBootAnimation } from "@/utils/resizeZip";
 import DrawerPreview from "./DrawerPreview";
 import PlaybackStatsAndInstall from "./PlaybackStatsAndInstall";
 import SimulatorControls from "./SimulatorControls";
@@ -16,6 +17,67 @@ interface PlaybackDrawerProps {
 export function PlaybackDrawer({ selectedAnim, onClose }: PlaybackDrawerProps) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const { downloadAsMagiskModule, packing, error: packingError } = useMagiskPacker();
+
+  const [resolutionMode, setResolutionMode] = useState<string>("original");
+  const [customWidth, setCustomWidth] = useState<number>(1080);
+  const [customHeight, setCustomHeight] = useState<number>(2400);
+  const [downloadingZip, setDownloadingZip] = useState(false);
+  const [zipError, setZipError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (selectedAnim) {
+      setResolutionMode("original");
+      setCustomWidth(selectedAnim.width || 1080);
+      setCustomHeight(selectedAnim.height || 2400);
+      setZipError(null);
+    }
+  }, [selectedAnim]);
+
+  const handleDownloadZip = async () => {
+    if (!selectedAnim) return;
+    setDownloadingZip(true);
+    setZipError(null);
+    try {
+      let width = selectedAnim.width;
+      let height = selectedAnim.height;
+
+      if (resolutionMode === "custom") {
+        width = customWidth;
+        height = customHeight;
+      } else if (resolutionMode !== "original") {
+        const [w, h] = resolutionMode.split("x").map(Number);
+        width = w;
+        height = h;
+      }
+
+      // 1. Fetch original ZIP via proxy
+      const proxyUrl = `/api/download?url=${encodeURIComponent(selectedAnim.zipUrl)}`;
+      const response = await fetch(proxyUrl);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch original ZIP file. Status: ${response.status}`);
+      }
+      const zipBuffer = await response.arrayBuffer();
+
+      // 2. Resize ZIP
+      const processedZipBuffer = await resizeBootAnimation(zipBuffer, width, height);
+
+      // 3. Trigger download
+      const blob = new Blob([processedZipBuffer], { type: "application/zip" });
+      const downloadUrl = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = downloadUrl;
+      a.download = selectedAnim.zipName;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(downloadUrl);
+    } catch (err) {
+      console.error("ZIP resizing/download error:", err);
+      setZipError(err instanceof Error ? err.message : "Failed to download ZIP file.");
+    } finally {
+      setDownloadingZip(false);
+    }
+  };
 
   const sim = usePlaybackSimulator(selectedAnim, canvasRef);
 
@@ -112,38 +174,129 @@ export function PlaybackDrawer({ selectedAnim, onClose }: PlaybackDrawerProps) {
         </div>
 
         {/* Drawer Footer Actions */}
-        <div className="p-6 border-t border-neutral-200 dark:border-neutral-900 bg-neutral-50 dark:bg-neutral-950 flex flex-col gap-3 shrink-0 font-sans">
+        <div className="p-6 border-t border-neutral-200 dark:border-neutral-900 bg-neutral-50 dark:bg-neutral-950 flex flex-col gap-4 shrink-0 font-sans">
+          
+          {/* Resolution Selector UI */}
+          <div className="flex flex-col gap-2 font-mono text-xs mb-2">
+            <div className="flex items-center justify-between">
+              <span className="text-neutral-500 dark:text-neutral-400 font-bold uppercase tracking-wider text-[10px]">
+                Target Resolution
+              </span>
+              {resolutionMode !== "original" && (
+                <span className="text-[9px] text-cyan-555 dark:text-cyan-400 font-bold uppercase tracking-wide">
+                  Resizing Active
+                </span>
+              )}
+            </div>
+            <div className="relative">
+              <select
+                value={resolutionMode}
+                onChange={(e) => setResolutionMode(e.target.value)}
+                className="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl px-3.5 py-2.5 text-xs text-neutral-800 dark:text-neutral-200 focus:outline-none focus:border-neutral-400 dark:focus:border-neutral-700 transition-colors cursor-pointer appearance-none font-sans"
+              >
+                <option value="original">Original ({selectedAnim.width} x {selectedAnim.height})</option>
+                <option value="1080x2400">1080 x 2400 (FHD+ Standard / Modern Phones)</option>
+                <option value="1080x1920">1080 x 1920 (Standard FHD 16:9)</option>
+                <option value="720x1600">720 x 1600 (HD+ Tall)</option>
+                <option value="720x1280">720 x 1280 (Standard HD 16:9)</option>
+                <option value="1440x3200">1440 x 3200 (QHD+ / Premium Phones)</option>
+                <option value="custom">Custom Resolution...</option>
+              </select>
+              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-neutral-500">
+                <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                </svg>
+              </div>
+            </div>
+
+            {resolutionMode === "custom" && (
+              <div className="flex gap-2 items-center mt-1 animate-[fadeIn_0.2s_ease-out]">
+                <div className="flex-1 flex flex-col gap-1">
+                  <span className="text-[9px] text-neutral-400 dark:text-neutral-500 uppercase font-bold">Width</span>
+                  <input
+                    type="number"
+                    value={customWidth}
+                    onChange={(e) => setCustomWidth(Math.max(1, parseInt(e.target.value) || 0))}
+                    className="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg px-2.5 py-1.5 text-xs text-neutral-800 dark:text-neutral-200 focus:outline-none focus:border-neutral-400 dark:focus:border-neutral-700 transition-colors"
+                  />
+                </div>
+                <span className="text-neutral-400 dark:text-neutral-600 mt-4 text-[10px]">✕</span>
+                <div className="flex-1 flex flex-col gap-1">
+                  <span className="text-[9px] text-neutral-400 dark:text-neutral-500 uppercase font-bold">Height</span>
+                  <input
+                    type="number"
+                    value={customHeight}
+                    onChange={(e) => setCustomHeight(Math.max(1, parseInt(e.target.value) || 0))}
+                    className="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg px-2.5 py-1.5 text-xs text-neutral-800 dark:text-neutral-200 focus:outline-none focus:border-neutral-400 dark:focus:border-neutral-700 transition-colors"
+                  />
+                </div>
+              </div>
+            )}
+          </div>
+
           {packingError && (
             <p className="text-[10px] font-mono text-red-500 text-center">
               Error: {packingError}
             </p>
           )}
+          {zipError && (
+            <p className="text-[10px] font-mono text-red-500 text-center">
+              Error: {zipError}
+            </p>
+          )}
+
           <div className="flex gap-3 w-full">
-            <a
-              href={selectedAnim.zipUrl}
-              download
-              className="relative overflow-hidden flex-1 py-3 rounded-xl text-xs font-bold text-center bg-neutral-100 dark:bg-neutral-900 hover:bg-neutral-200 dark:hover:bg-neutral-800 text-neutral-800 dark:text-neutral-200 border border-neutral-200 dark:border-neutral-800 transition-all duration-200 flex items-center justify-center gap-1.5 hover:scale-[1.01] active:scale-[0.99] font-mono"
+            <button
+              onClick={handleDownloadZip}
+              disabled={downloadingZip || packing}
+              className="relative overflow-hidden flex-1 py-3 rounded-xl text-xs font-bold text-center bg-neutral-100 dark:bg-neutral-900 hover:bg-neutral-200 dark:hover:bg-neutral-800 text-neutral-800 dark:text-neutral-200 border border-neutral-200 dark:border-neutral-800 transition-all duration-200 flex items-center justify-center gap-1.5 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 font-mono"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2.5}
-                stroke="currentColor"
-                className="w-3.5 h-3.5"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
-                />
-              </svg>
-              <span>Download ZIP</span>
-            </a>
+              {downloadingZip ? (
+                <>
+                  <svg className="animate-spin h-3.5 w-3.5 text-neutral-800 dark:text-neutral-200" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                  </svg>
+                  <span>Resizing ZIP...</span>
+                </>
+              ) : (
+                <>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2.5}
+                    stroke="currentColor"
+                    className="w-3.5 h-3.5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                    />
+                  </svg>
+                  <span>Download ZIP</span>
+                </>
+              )}
+            </button>
 
             <button
-              onClick={() => downloadAsMagiskModule(selectedAnim.zipUrl, selectedAnim.name)}
-              disabled={packing}
+              onClick={() => {
+                let width: number | undefined;
+                let height: number | undefined;
+
+                if (resolutionMode === "custom") {
+                  width = customWidth;
+                  height = customHeight;
+                } else if (resolutionMode !== "original") {
+                  const [w, h] = resolutionMode.split("x").map(Number);
+                  width = w;
+                  height = h;
+                }
+
+                downloadAsMagiskModule(selectedAnim.zipUrl, selectedAnim.name, width, height);
+              }}
+              disabled={packing || downloadingZip}
               className="relative overflow-hidden flex-1 py-3 rounded-xl text-xs font-bold text-center bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 text-white shadow-lg shadow-cyan-500/10 hover:shadow-cyan-400/25 transition-all duration-200 flex items-center justify-center gap-1.5 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 font-mono"
             >
               {packing ? (

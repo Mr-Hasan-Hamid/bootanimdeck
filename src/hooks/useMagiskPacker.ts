@@ -2,12 +2,18 @@
 
 import { useState } from "react";
 import JSZip from "jszip";
+import { resizeBootAnimation } from "@/utils/resizeZip";
 
 export function useMagiskPacker() {
   const [packing, setPacking] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const downloadAsMagiskModule = async (zipUrl: string, animationName: string) => {
+  const downloadAsMagiskModule = async (
+    zipUrl: string,
+    animationName: string,
+    targetWidth?: number,
+    targetHeight?: number
+  ) => {
     setPacking(true);
     setError(null);
     try {
@@ -17,7 +23,12 @@ export function useMagiskPacker() {
       if (!response.ok) {
         throw new Error(`Failed to fetch boot animation zip. Status: ${response.status}`);
       }
-      const zipBuffer = await response.arrayBuffer();
+      let zipBuffer = await response.arrayBuffer();
+
+      // If target resolution is specified, resize it on the fly!
+      if (targetWidth && targetHeight) {
+        zipBuffer = await resizeBootAnimation(zipBuffer, targetWidth, targetHeight);
+      }
 
       // 2. Create the Magisk Module ZIP using JSZip
       const magiskZip = new JSZip();
