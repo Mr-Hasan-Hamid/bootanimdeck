@@ -8,6 +8,7 @@ import { resizeBootAnimation } from "@/utils/resizeZip";
 import DrawerPreview from "./DrawerPreview";
 import PlaybackStatsAndInstall from "./PlaybackStatsAndInstall";
 import SimulatorControls from "./SimulatorControls";
+import ResolutionDropdown from "./ResolutionDropdown";
 
 interface PlaybackDrawerProps {
   selectedAnim: AnimationItem | null;
@@ -188,26 +189,14 @@ export function PlaybackDrawer({ selectedAnim, onClose }: PlaybackDrawerProps) {
                 </span>
               )}
             </div>
-            <div className="relative">
-              <select
-                value={resolutionMode}
-                onChange={(e) => setResolutionMode(e.target.value)}
-                className="w-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl px-3.5 py-2.5 text-xs text-neutral-800 dark:text-neutral-200 focus:outline-none focus:border-neutral-400 dark:focus:border-neutral-700 transition-colors cursor-pointer appearance-none font-sans"
-              >
-                <option value="original">Original ({selectedAnim.width} x {selectedAnim.height})</option>
-                <option value="1080x2400">1080 x 2400 (FHD+ Standard / Modern Phones)</option>
-                <option value="1080x1920">1080 x 1920 (Standard FHD 16:9)</option>
-                <option value="720x1600">720 x 1600 (HD+ Tall)</option>
-                <option value="720x1280">720 x 1280 (Standard HD 16:9)</option>
-                <option value="1440x3200">1440 x 3200 (QHD+ / Premium Phones)</option>
-                <option value="custom">Custom Resolution...</option>
-              </select>
-              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-neutral-500">
-                <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
-                </svg>
-              </div>
-            </div>
+            <ResolutionDropdown
+              value={resolutionMode}
+              onChange={setResolutionMode}
+              originalWidth={selectedAnim.width || 1080}
+              originalHeight={selectedAnim.height || 2400}
+              disabled={downloadingZip || packing}
+              direction="top"
+            />
 
             {resolutionMode === "custom" && (
               <div className="flex gap-2 items-center mt-1 animate-[fadeIn_0.2s_ease-out]">

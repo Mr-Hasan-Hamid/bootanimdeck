@@ -187,7 +187,21 @@ export default function BulkDownloaderPage() {
         downloadErrors={downloadErrors}
         onCancel={handleCancelDownload}
         onClear={handleClearSelection}
-        onDownload={() => handleDownloadBulk(selectedAnimations)}
+        onDownload={(mode, customW, customH) => {
+          let width: number | undefined;
+          let height: number | undefined;
+
+          if (mode === "custom") {
+            width = customW;
+            height = customH;
+          } else if (mode !== "original") {
+            const [w, h] = mode.split("x").map(Number);
+            width = w;
+            height = h;
+          }
+
+          handleDownloadBulk(selectedAnimations, width, height);
+        }}
       />
 
       <ScrollNavigator isStatusBarVisible={selectedIds.length > 0} />

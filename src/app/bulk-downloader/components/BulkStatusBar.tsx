@@ -1,5 +1,8 @@
 "use client";
 
+import { useState, useEffect } from "react";
+import ResolutionDropdown from "@/components/ResolutionDropdown";
+
 interface BulkStatusBarProps {
   selectedCount: number;
   totalCount: number;
@@ -10,7 +13,7 @@ interface BulkStatusBarProps {
   downloadErrors: string[];
   onCancel: () => void;
   onClear: () => void;
-  onDownload: () => void;
+  onDownload: (mode: string, customWidth: number, customHeight: number) => void;
 }
 
 export function BulkStatusBar({
@@ -26,6 +29,18 @@ export function BulkStatusBar({
   onDownload
 }: BulkStatusBarProps) {
   const isVisible = selectedCount > 0;
+
+  const [resolutionMode, setResolutionMode] = useState<string>("original");
+  const [customWidth, setCustomWidth] = useState<number>(1080);
+  const [customHeight, setCustomHeight] = useState<number>(2400);
+
+  useEffect(() => {
+    if (selectedCount === 0) {
+      setResolutionMode("original");
+      setCustomWidth(1080);
+      setCustomHeight(2400);
+    }
+  }, [selectedCount]);
 
   return (
     <div
@@ -48,6 +63,37 @@ export function BulkStatusBar({
           <div>
             <span className="text-[10px] text-neutral-500 uppercase block tracking-wider font-semibold">Estimated Package Size</span>
             <span className="text-sm font-bold text-cyan-600 dark:text-cyan-400">{totalSizeFormatted}</span>
+          </div>
+          <div className="hidden sm:block h-8 w-px bg-neutral-200 dark:bg-neutral-800 self-center" />
+          <div className="flex flex-col items-center sm:items-start select-none w-48">
+            <span className="text-[10px] text-neutral-500 uppercase block tracking-wider font-semibold mb-1">Resolution</span>
+            <div className="flex flex-col items-center sm:items-start gap-1 w-full">
+              <ResolutionDropdown
+                value={resolutionMode}
+                onChange={setResolutionMode}
+                disabled={downloading}
+                direction="top"
+              />
+              {resolutionMode === "custom" && !downloading && (
+                <div className="flex items-center gap-1 mt-1 text-[10px] animate-[fadeIn_0.2s_ease-out]">
+                  <input
+                    type="number"
+                    value={customWidth}
+                    onChange={(e) => setCustomWidth(Math.max(1, parseInt(e.target.value) || 0))}
+                    className="w-12 bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded px-1 py-0.5 text-center text-neutral-800 dark:text-neutral-200 focus:outline-none font-bold"
+                    placeholder="W"
+                  />
+                  <span className="text-neutral-400 dark:text-neutral-600">✕</span>
+                  <input
+                    type="number"
+                    value={customHeight}
+                    onChange={(e) => setCustomHeight(Math.max(1, parseInt(e.target.value) || 0))}
+                    className="w-12 bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded px-1 py-0.5 text-center text-neutral-800 dark:text-neutral-200 focus:outline-none font-bold"
+                    placeholder="H"
+                  />
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
@@ -83,7 +129,7 @@ export function BulkStatusBar({
                 Clear
               </button>
               <button
-                onClick={onDownload}
+                onClick={() => onDownload(resolutionMode, customWidth, customHeight)}
                 className="flex-grow sm:flex-grow-0 px-6 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-600 text-white font-bold text-[11px] uppercase tracking-widest transition-all duration-300 shadow-md shadow-cyan-500/20 active:scale-98 animate-pulse hover:animate-none flex items-center justify-center gap-2"
               >
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">

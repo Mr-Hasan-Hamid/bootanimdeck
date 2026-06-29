@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import JSZip from "jszip";
+import { resizeBootAnimation } from "@/utils/resizeZip";
 
 interface MinimialAnimationItem {
   name: string;
@@ -23,7 +24,11 @@ export function useBulkDownload() {
     setStatusText("Download cancelled by user.");
   };
 
-  const handleDownloadBulk = async (selectedAnimations: MinimialAnimationItem[]) => {
+  const handleDownloadBulk = async (
+    selectedAnimations: MinimialAnimationItem[],
+    targetWidth?: number,
+    targetHeight?: number
+  ) => {
     if (selectedAnimations.length === 0) return;
 
     setDownloading(true);
@@ -55,7 +60,16 @@ export function useBulkDownload() {
           const response = await fetch(proxyUrl, { signal });
           if (!response.ok) throw new Error(`HTTP status ${response.status}`);
 
-          const arrayBuffer = await response.arrayBuffer();
+          let arrayBuffer = await response.arrayBuffer();
+
+          if (targetWidth && targetHeight) {
+            try {
+              arrayBuffer = await resizeBootAnimation(arrayBuffer, targetWidth, targetHeight);
+            } catch (resizeErr) {
+              console.warn(`Failed to resize ${item.name} in bulk download:`, resizeErr);
+            }
+          }
+
           zip.file(item.zipName, arrayBuffer);
 
           completedCount++;
