@@ -108,6 +108,71 @@ export async function exportMagiskModuleZip(
   triggerDownload(magiskBlob, downloadName);
 }
 
+export async function exportKernelSUModuleZip(
+  width: number,
+  height: number,
+  fps: number,
+  parts: PartConfig[],
+  loadedZip: JSZip,
+  zipName: string
+) {
+  // 1. Compile the custom desc.txt and pack it inside the bootanimation zip
+  let descContent = `${width} ${height} ${fps}\n`;
+  parts.forEach((p) => {
+    descContent += `${p.type} ${p.loopCount} ${p.pause} ${p.folder}\n`;
+  });
+  loadedZip.file("desc.txt", descContent);
+
+  const bootAnimZipBlob = await loadedZip.generateAsync({
+    type: "blob",
+    compression: "STORE",
+  });
+
+  // 2. Wrap it inside a KernelSU module structure
+  const ksuZip = new JSZip();
+  const normalizedName = zipName.replace(".zip", "").replace(/[^a-zA-Z0-9_\- ]/g, "");
+  const cleanSlug = normalizedName.toLowerCase().replace(/ /g, "_");
+
+  const moduleProp = [
+    `id=bootanimdeck_ksu_${cleanSlug}`,
+    `name=BootAnimDeck (KernelSU) - ${normalizedName}`,
+    `version=1.0`,
+    `versionCode=1`,
+    `author=BootAnimDeck`,
+    `description=Systemless KernelSU boot animation overlay for ${normalizedName} compiled in BootAnimDeck Studio.`,
+  ].join("\n");
+
+  const updateBinary = [
+    `#!/system/bin/sh`,
+    `MODPATH="$1"`,
+    `ZIPFILE="$3"`,
+    `unzip -o "$ZIPFILE" -d "$MODPATH"`,
+    `chmod -R 755 "$MODPATH"`,
+    `find "$MODPATH" -type f -exec chmod 644 {} +`,
+    `exit 0`,
+  ].join("\n");
+
+  ksuZip.file("module.prop", moduleProp);
+  ksuZip.file("META-INF/com/google/android/update-binary", updateBinary, {
+    unixPermissions: "755",
+  });
+  ksuZip.file("META-INF/com/google/android/updater-script", "# Dummy updater-script\n");
+
+  // Store the custom bootanimation.zip binary in all system/product paths
+  ksuZip.file("system/media/bootanimation.zip", bootAnimZipBlob);
+  ksuZip.file("system/product/media/bootanimation.zip", bootAnimZipBlob);
+  ksuZip.file("system/system_ext/media/bootanimation.zip", bootAnimZipBlob);
+  ksuZip.file("product/media/bootanimation.zip", bootAnimZipBlob);
+
+  const ksuBlob = await ksuZip.generateAsync({
+    type: "blob",
+    compression: "DEFLATE",
+  });
+
+  const downloadName = `kernelsu_module_${cleanSlug}.zip`;
+  triggerDownload(ksuBlob, downloadName);
+}
+
 function triggerDownload(blob: Blob, filename: string) {
   const downloadUrl = URL.createObjectURL(blob);
   const a = document.createElement("a");

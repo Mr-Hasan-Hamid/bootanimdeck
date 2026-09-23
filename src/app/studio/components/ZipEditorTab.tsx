@@ -5,7 +5,11 @@ import { useZipFileLoader } from "../hooks/useZipFileLoader";
 import { useZipPreview } from "../hooks/useZipPreview";
 import { ZipSidebarPanel } from "./ZipSidebarPanel";
 import { ZipEditorConfigPanel } from "./ZipEditorConfigPanel";
-import { exportStandardZip, exportMagiskModuleZip } from "../utils/compiler";
+import {
+  exportStandardZip,
+  exportMagiskModuleZip,
+  exportKernelSUModuleZip,
+} from "../utils/compiler";
 
 export function ZipEditorTab() {
   const zipCanvasRef = useRef<HTMLCanvasElement>(null);
@@ -96,6 +100,22 @@ export function ZipEditorTab() {
     }
   };
 
+  const exportAsKernelSUModule = async () => {
+    if (!loadedZip) {
+      alert("Please load an animation ZIP first.");
+      return;
+    }
+    setLoading(true);
+    try {
+      await exportKernelSUModuleZip(width, height, fps, parts, loadedZip, zipName);
+    } catch (e) {
+      console.error(e);
+      alert("Error compiling KernelSU module.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start relative z-10">
@@ -141,6 +161,7 @@ export function ZipEditorTab() {
           }}
           onExport={exportBootanimation}
           onExportMagisk={exportAsMagiskModule}
+          onExportKernelSU={exportAsKernelSUModule}
         />
       </div>
 

@@ -107,7 +107,7 @@ export function ZipSidebarPanel({
               {isMagiskModule && (
                 <div className="flex justify-between border-b border-dashed border-neutral-200 dark:border-neutral-850 pb-2 text-[10px] text-cyan-600 dark:text-cyan-400 font-bold font-mono">
                   <span>Installer Module:</span>
-                  <span>Magisk / Recovery ZIP</span>
+                  <span>Magisk / KernelSU Module</span>
                 </div>
               )}
               {isMagiskModule && (
