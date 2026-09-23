@@ -77,7 +77,7 @@ export function OnDeviceTab() {
           </p>
           <ol className="list-decimal list-inside space-y-2 text-xs text-neutral-650 dark:text-neutral-400 pl-2 font-sans">
             <li>Find a preset animation in our gallery or compile a custom one in the Studio.</li>
-            <li>Click the <strong className="text-neutral-900 dark:text-white font-semibold">⚡ Magisk Module</strong> button to generate and download the flashable module ZIP.</li>
+            <li>Click the <strong className="text-neutral-900 dark:text-white font-semibold">⚡ Magisk</strong> or <strong className="text-neutral-900 dark:text-white font-semibold">🛡️ KernelSU</strong> module button to generate and download the flashable module ZIP.</li>
             <li>Open the Magisk Manager, KernelSU, or APatch app on your Android device.</li>
             <li>Navigate to the <strong className="text-neutral-900 dark:text-white font-semibold">Modules</strong> tab ❯ Tap <strong className="text-neutral-900 dark:text-white font-semibold">Install from storage</strong> ❯ Select the downloaded module ZIP.</li>
             <li>Once the installation log flashes, tap <strong className="text-neutral-900 dark:text-white font-semibold">Reboot</strong> to load your new animation!</li>

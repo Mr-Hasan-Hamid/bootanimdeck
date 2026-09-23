@@ -27,6 +27,7 @@ interface ZipEditorConfigPanelProps {
   onCloseWorkspace: () => void;
   onExport: () => void;
   onExportMagisk?: () => void;
+  onExportKernelSU?: () => void;
 }
 
 export function ZipEditorConfigPanel({
@@ -46,6 +47,7 @@ export function ZipEditorConfigPanel({
   onCloseWorkspace,
   onExport,
   onExportMagisk,
+  onExportKernelSU,
 }: ZipEditorConfigPanelProps) {
   return (
     <div className="md:col-span-2 space-y-6">
@@ -153,6 +155,14 @@ export function ZipEditorConfigPanel({
               className="relative overflow-hidden px-5 py-2.5 rounded-xl text-xs font-bold text-center bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 text-white shadow-lg shadow-cyan-500/10 hover:shadow-cyan-400/25 transition-all duration-200 hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-1.5"
             >
               <span>⚡ Magisk Module</span>
+            </button>
+          )}
+          {onExportKernelSU && (
+            <button
+              onClick={onExportKernelSU}
+              className="relative overflow-hidden px-5 py-2.5 rounded-xl text-xs font-bold text-center bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-white shadow-lg shadow-emerald-500/10 hover:shadow-emerald-400/25 transition-all duration-200 hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-1.5"
+            >
+              <span>🛡️ KernelSU Module</span>
             </button>
           )}
         </div>
