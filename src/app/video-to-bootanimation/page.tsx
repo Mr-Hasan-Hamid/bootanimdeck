@@ -38,13 +38,21 @@ export default function VideoToBootanimPage() {
     return Math.max(1, Math.ceil((dur * convFps) / frameStep));
   }, [trimEnd, trimStart, convFps, frameStep]);
 
-  const handleVideoSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
+  const processSelectedFile = (file: File) => {
     setVideoFile(file);
     if (videoUrl) URL.revokeObjectURL(videoUrl);
     setVideoUrl(URL.createObjectURL(file));
     setTrimStart(0);
+  };
+
+  const handleVideoSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    processSelectedFile(file);
+  };
+
+  const handleDropFile = (file: File) => {
+    processSelectedFile(file);
   };
 
   const handleVideoLoaded = () => {
@@ -112,6 +120,7 @@ export default function VideoToBootanimPage() {
             duration={duration}
             videoRef={videoRef}
             onSelect={handleVideoSelect}
+            onDropFile={handleDropFile}
             onLoaded={handleVideoLoaded}
           />
 
