@@ -35,10 +35,17 @@ export default function VideoDropZone({ videoFile, videoUrl, duration, videoRef,
     setIsDragging(false);
 
     const droppedFile = e.dataTransfer.files?.[0];
-    if (droppedFile && (droppedFile.type.includes("video") || droppedFile.name.match(/\.(mp4|webm)$/i))) {
+    if (droppedFile && (droppedFile.type.includes("video") || droppedFile.name.match(/\.(mp4|webm|mov|mkv)$/i))) {
       if (onDropFile) {
         onDropFile(droppedFile);
       }
+    }
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      inputRef.current?.click();
     }
   };
 
@@ -50,12 +57,16 @@ export default function VideoDropZone({ videoFile, videoUrl, duration, videoRef,
 
       {/* Drop zone */}
       <div
-        className={`relative border-2 border-dashed rounded-xl p-8 text-center cursor-pointer transition-all bg-white/50 dark:bg-black/50 hover:scale-[1.01] group ${
+        role="button"
+        tabIndex={0}
+        aria-label="Upload video file"
+        className={`relative border-2 border-dashed rounded-xl p-8 text-center cursor-pointer transition-all bg-white/50 dark:bg-black/50 hover:scale-[1.01] focus:outline-none focus:ring-2 focus:ring-cyan-400 group ${
           isDragging
             ? "border-cyan-400 bg-cyan-500/10 scale-[1.01]"
             : "border-neutral-300 dark:border-neutral-800 hover:border-cyan-400 dark:hover:border-cyan-400/80"
         }`}
         onClick={() => inputRef.current?.click()}
+        onKeyDown={handleKeyDown}
         onDragOver={handleDragOver}
         onDragLeave={handleDragLeave}
         onDrop={handleDrop}
@@ -63,7 +74,7 @@ export default function VideoDropZone({ videoFile, videoUrl, duration, videoRef,
         <input
           ref={inputRef}
           type="file"
-          accept="video/mp4,video/webm"
+          accept="video/mp4,video/webm,video/quicktime,video/x-matroska"
           onChange={onSelect}
           className="hidden"
         />
@@ -71,7 +82,7 @@ export default function VideoDropZone({ videoFile, videoUrl, duration, videoRef,
         <div className="text-xs text-neutral-500 dark:text-neutral-400 group-hover:text-white transition-colors">
           {isDragging ? "Drop your video here" : "Click or drag & drop to select"}{" "}
           <code className="font-mono bg-neutral-100 dark:bg-neutral-900 px-1 rounded border border-neutral-200 dark:border-neutral-850">
-            .mp4 / .webm
+            .mp4 / .webm / .mov
           </code>
         </div>
       </div>
