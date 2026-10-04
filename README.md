@@ -14,7 +14,9 @@ BootAnimDeck is a premium, open-source Next.js application designed for Android 
 
 - **220+ Preset Gallery**: A curated directory of high-performance animations with instant visual hover previews.
 - **Dynamic Playback Simulator**: Frame-by-frame Canvas simulator with speed configuration, scrubber control, and loop settings.
-- **Video to Boot Animation**: Convert arbitrary video formats to Android boot animation ZIPs containing `desc.txt` configuration entirely client-side.
+- **Video to Boot Animation**: Convert arbitrary video formats (`.mp4`, `.webm`, `.mov`, `.mkv`) to Android boot animation ZIPs containing `desc.txt` configuration entirely client-side.
+- **Accessible Drag-and-Drop Ingestion**: Interactive dropzone with active drag state indicators, keyboard accessibility (`Enter`/`Space`), and ARIA semantics.
+- **Universal Root Packaging**: Client-side module compiler supporting both **Magisk** and **KernelSU** systemless overlay structures.
 - **WASM Compiler**: Create Android installer ZIPs dynamically without any remote server rendering.
 - **PWA Capabilities**: Fully installable as a progressive web app with progressive offline capabilities.
 
